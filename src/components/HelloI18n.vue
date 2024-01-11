@@ -1,5 +1,5 @@
 <template>
-  <p>{{ $t('hello') }}</p>
+  <p>{{ $t('message') }}</p>
 </template>
 
 <script>
@@ -10,10 +10,4 @@ export default defineComponent({
 })
 </script>
 
-<i18n>
-{
-  "en": {
-    "hello": "Hello i18n in SFC!"
-  }
-}
-</i18n>
+
