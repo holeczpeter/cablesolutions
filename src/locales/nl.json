@@ -1,3 +1,64 @@
 {
-    "message": "hello i18n nl!!"
+  "home":"Startpagina",
+  "about":"Over ons",
+  "products":"Producten",
+  "contact": "Contact",
+  "affordable-quality":"Betaalbare kwaliteit",
+  "welcome":"Welkom",
+  "slider-about":"Productie van elektrische kabelbomen, elektrische kasten en panelen, kastmontage.",
+  "slider-about-2":"Voor alle elektrische totaaloplossingen.",
+  "more-detail":"meer details",
+  "about-page":{
+    "section-title":"Leer ons kennen",
+    "title":"Elektrische en elektronische productie",
+    "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "since":"sinds 2011",
+    "check-1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "check-2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "check-3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "view-more":"Bekijk meer",
+    "contact":"Neem contact met ons op"
+  },
+  "statistics-page":{
+    "title-1":"Electrical",
+    "title-2":"en elektronica ",
+    "title-3":"vervaardigend",
+    "projects":"Afgeronde projecten",
+    "clients":"Vertrouwde klanten",
+    "experience":"Jarenlange ervaring"
+  },
+  "products-page":{
+    "title":"Producten",
+    "subtitle":"Wij bieden topproductie vanuit elke hoek",
+    "description":"Loream ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    "more":"Bekijk meer producten"
+  },
+  "contact-us-page":{
+    "title":"NEEM CONTACT MET ONS OP",
+    "subtitle":"Neem contact op!",
+    "description":"Loream ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "head-office":"Hoofdkantoor",
+    "branch-office":"Bijkantoor",
+    "address":"Adres",
+    "call-us":"Bel ons",
+    "email":"Email",
+    "head_office":"De Potterestraat 1 B 4751 GX Oud Gastel, Nederland",
+    "branch_office":"Dózsa Telep 83. 6060 Tiszakécske, Hongarije"
+  },
+  "contact-form":{
+    "title-1":"Contact ",
+    "title-2":"Formulier",
+    "subtitle-1":"Neem gerust contact met ons op via",
+    "subtitle-2":"of",
+    "subtitle-3": "als je dat liever hebt.",
+    "facebook":"Facebook",
+    "linkedIn":"LinkedIn",
+    "name":"Naam",
+    "email":"Email",
+    "phone":"Telefoonnummer",
+    "company":"Bedrijfsnaam",
+    "subject":"Onderwerp",
+    "message":"Bericht",
+    "send":"Nu verzenden"
   }
+}

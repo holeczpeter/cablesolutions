@@ -4,8 +4,7 @@
       <option
         v-for="(lang, i) in langs"
         :key="`lang-${i}`"
-        :value="lang"
-      >
+        :value="lang">
         {{ lang }}
       </option>
     </select>
