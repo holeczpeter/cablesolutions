@@ -3,9 +3,10 @@ import Home from '../views/Home.vue'
 import Product from '../components/products/Product.vue'
 import Products from '../components/products/Products.vue'
 import About from '../components/about/About.vue'
+
 const routes = [
   {
-    path: "*",
+    path: "/",
     name: Home,
     meta: {
       title: "Home",
