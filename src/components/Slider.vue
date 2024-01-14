@@ -10,7 +10,7 @@
    </div>
    <div class="banner_slider banner_slider_wide">
       <div class="slide">
-         <div class="slide_img" :style="{ backgroundImage: 'url(' + require('@/assets/images/fiber.jpg') + ')' }"></div>
+         <div class="slide_img" :style="{ backgroundImage: 'url(' + require('@/assets/img/fiber.jpg') + ')' }"></div>
          <div class="slide__content">
             <div class="container">
                <div class="row">

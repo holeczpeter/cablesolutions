@@ -4,7 +4,7 @@
          <div class="row">
             <div class="col-lg-5 col-md-6 col-sm-8">
                <div class="ttm_single_image-wrapper">
-                  <img class="img-fluid auto_size" width="475" height="624" src="../../assets/images/about.jpeg" alt="single-07">
+                  <img class="img-fluid auto_size" width="475" height="624" src="../../assets/img/about.jpeg" alt="single-07">
                </div>
             </div>
             <div class="col-lg-7 col-md-12 col-xs-12">
@@ -22,7 +22,7 @@
                   <div class="ttm-horizontal_sep width-100 padding_top30"></div>
                   <div class="d-sm-flex align-items-center">
                      <div class="ttm_single_image-wrapper text-left m-0">
-                        <img class="img-fluid auto_size" width="168" height="88" src="../../assets/images/Symbol.jpg" alt="single-08">
+                        <img class="img-fluid auto_size" width="168" height="88" src="../../assets/img/Symbol.jpg" alt="single-08">
                      </div>
                      <div class="pl-4 res-575-padding_left0 res-575-margin_top15">
                         <h3 class="fs-20 mb-0 pr-5 res-991-padding_right0">Our Electronics Manufacturing Found In 2011</h3>

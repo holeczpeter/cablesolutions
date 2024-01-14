@@ -331,7 +331,7 @@ label { font-size: 13px; }
     padding-top: 65px;
 }
 .ttm_single_image-wrapper.imagestyle-one:before {
-    background-image: url(../images/img-pattern-bg1.png);
+    background-image: url(../img/img-pattern-bg1.png);
     content: '';
     position: absolute;
     width: 190px;
@@ -368,8 +368,8 @@ label { font-size: 13px; }
 }
 .ttm_single_image-wrapper.imagestyle-two .ttm_single_image_text:before {
     background-color: #db2d46;
-    -webkit-mask: url(../images/image-arrow.svg) no-repeat 100% 100%;
-    -webkit-mask-box-image: url(../images/image-arrow.svg);
+    -webkit-mask: url(../img/image-arrow.svg) no-repeat 100% 100%;
+    -webkit-mask-box-image: url(../img/image-arrow.svg);
     content: '';
     position: absolute;
     width: 90px;
@@ -2799,7 +2799,7 @@ article.ttm-blog-single .ttm-blog-single-content {
 }
 .ttm-blog-single blockquote:before {
     content: '';
-    background-image: url(../images/block-quote-single.png);
+    background-image: url(../img/block-quote-single.png);
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -2981,7 +2981,7 @@ article.ttm-blog-single .ttm-blog-single-content {
 /*  Error_page
 /*------------------------------------------------------------------------------*/
 .error-404{ 
-  background-image: url(../images/404-page-bg.jpg);
+  background-image: url(../img/404-page-bg.jpg);
   background-color: rgba(255,255,255,0.1);
   background-position: center center;
   background-size: cover;

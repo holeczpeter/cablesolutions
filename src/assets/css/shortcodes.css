@@ -116,7 +116,7 @@
     4.Row-Bg-Image  
 ------------------------*/
 .bg-img1{
-    background-image: url(../../assets/images/cable1.jpg);
+    background-image: url(../../assets/img/cable1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -136,7 +136,7 @@
     background-attachment: fixed;
 }
 .bg-img4{
-    background-image: url(../images/bg-image/row-bgimage-4.png);
+    background-image: url(../img/bg-image/row-bgimage-4.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center
@@ -155,7 +155,7 @@
 ------------------------*/
 .ttm-equal-height-image{ display: none; }
 .col-bg-img-one.ttm-col-bgimage-yes > .ttm-col-wrapper-bg-layer {
-    background-image: url(../images/bg-image/col-bgimage-1.jpg);
+    background-image: url(../img/bg-image/col-bgimage-1.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -181,7 +181,7 @@
     background-size: cover;
 }
 .col-bg-img-six.ttm-col-bgimage-yes > .ttm-col-wrapper-bg-layer {
-    background-image: url(../images/bg-image/col-bgimage-6.jpg);
+    background-image: url(../img/bg-image/col-bgimage-6.jpg);
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -193,7 +193,7 @@
     background-repeat: no-repeat !important;
 }
 .col-bg-img-eight.ttm-col-bgimage-yes > .ttm-col-wrapper-bg-layer {
-    background-image: url(../images/bg-image/col-bgimage-8.png) !important;
+    background-image: url(../img/bg-image/col-bgimage-8.png) !important;
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
@@ -1606,7 +1606,7 @@ div:hover > .ttm-box-view-overlay:before, div:hover > .ttm-box-view-content-inne
     display: block;
     top: -50px;
     margin-left: 40px;
-    background: url(../images/procedure-bg.png) center center no-repeat;
+    background: url(../img/procedure-bg.png) center center no-repeat;
 }
 .row > [class*='col-']:nth-child(odd) .featured-imagebox-procedure {
     margin-top: 50px;

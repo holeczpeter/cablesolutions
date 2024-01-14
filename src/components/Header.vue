@@ -8,10 +8,10 @@
                      <div class="site-navigation d-flex flex-row align-items-center justify-content-between">
                         <div class="site-branding ">
                            <a class="home-link"  href="#" v-scroll-to="'#home'" title="Cable Solutions Kft" rel="home" v-if=isHome>
-                           <img id="logo-img" height="35" width="130" class="img-fluid auto_size" src="../assets/images/logo-img.jpg" alt="logo-img">
+                           <img id="logo-img" height="35" width="130" class="img-fluid auto_size" src="../assets/img/logo-img.jpg" alt="logo-img">
                            </a>
                            <a class="home-link"  :href="'/'"  title="Cable Solutions Kft" rel="home" v-if=!isHome>
-                           <img id="logo-img" height="35" width="130" class="img-fluid auto_size" src="../assets/images/logo-img.jpg" alt="logo-img">
+                           <img id="logo-img" height="35" width="130" class="img-fluid auto_size" src="../assets/img/logo-img.jpg" alt="logo-img">
                            </a>
                         </div>
                         <div class="site-description mr-auto">

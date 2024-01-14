@@ -20,7 +20,7 @@
                             <aside class="widget widget-download with-title">
                                 <div class="d-flex download_block">
                                     <div class="download_img_icon">
-                                        <img class="img-fluid auto_size" width="46" height="53" src="images/download-pdf.png" alt="download-pdf-img" />
+                                        <img class="img-fluid auto_size" width="46" height="53" src="img/download-pdf.png" alt="download-pdf-img" />
                                     </div>
                                     <div class="padding_left20">
                                         <p class="ttm-textcolor-skincolor margin_bottom0">Case Studies</p>

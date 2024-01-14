@@ -7,7 +7,7 @@
                   <div class="widget widget_text clearfix">
                      <div class="d-sm-flex align-items-center">
                         <div class="footer-logo">
-                           <img id="footer-logo-img" class="img-fluid auto_size" height="46" width="170" src="../assets/images/logo-img-tp.png" alt="image">
+                           <img id="footer-logo-img" class="img-fluid auto_size" height="46" width="170" src="../assets/img/logo-img-tp.png" alt="image">
                         </div>
                         <div class="textwidget widget-text">
                            <p>Cable Assembly, Electrical and Control cabinets, Engineering, Cable harnesses, industrial cabinets, and Complete electrical solutions.</p>

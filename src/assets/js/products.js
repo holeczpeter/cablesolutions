@@ -8,7 +8,7 @@ export const data = {
           description_hu: "Termék 1: Have been engaged with modern units for all requirements of continuous bleach.",
           description_nl: "Produkt 1: Have been engaged with modern units for all requirements of continuous bleach.",
           link:'product-detail',
-          pic: require("../../assets/images/products/1.jpg"),
+          pic: require("../../assets/img/products/1.jpg"),
         },
         { 
           title_en: "Product 2.",
@@ -18,7 +18,7 @@ export const data = {
           description_hu: "Termék 2: Have been engaged with modern units for all requirements of continuous bleach.",
           description_nl: "Produkt 2: Have been engaged with modern units for all requirements of continuous bleach.",
           link:'product-detail',
-          pic:require("../../assets/images/products/2.jpg"),
+          pic:require("../../assets/img/products/2.jpg"),
         },
         { 
           title_en: "Product 3.",
@@ -28,7 +28,7 @@ export const data = {
           description_hu: "Termék 3: Have been engaged with modern units for all requirements of continuous bleach.",
           description_nl: "Produkt 3: Have been engaged with modern units for all requirements of continuous bleach.",
           link:'product-detail',
-          pic:require("../../assets/images/products/3.jpg"),
+          pic:require("../../assets/img/products/3.jpg"),
         },
          
       ]
