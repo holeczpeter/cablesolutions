@@ -17,5 +17,5 @@ cd dist
 git init
 git add -A
 git commit -m "$DEPLOYMENT_MESSAGE"
-git push -f https://github.com/holeczpeter/holeczpeter.git main:gh-pages
+git push -f https://github.com/holeczpeter/cablesolutions.git main:gh-pages
 cd -
