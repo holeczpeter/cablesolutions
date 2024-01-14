@@ -24,9 +24,8 @@ export default {
 }
 
 
-new Vue({
-    router,
-    VueScrollTo,
-    i18n,
-    render: h => h(App)
-}).$mount('#app');
+createApp(App)
+.use(router)
+.use(VueScrollTo)
+.use(i18n)
+.mount('#app')
