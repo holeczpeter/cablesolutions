@@ -6,7 +6,7 @@ DEPLOYMENT_MESSAGE='New Build'
 npm run build
 #deploy.yml 
 mkdir -p dist/.github/workflows
-cp .github/workflows/deploy.yml dist/.github/workflows/deploy.yml
+cp .github/workflows/publish.yml dist/.github/workflows/publish.yml
 #commit
 cd dist
 git init
