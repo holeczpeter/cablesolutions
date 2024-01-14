@@ -5,7 +5,7 @@ import Products from '../components/products/Products.vue'
 import About from '../components/about/About.vue'
 const routes = [
   {
-    path: "",
+    path: '/:pathMatch(.*)*',
     name: Home,
     meta: {
       title: "Home",
