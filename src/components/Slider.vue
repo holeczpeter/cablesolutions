@@ -4,8 +4,8 @@
    </div>
    <div class="slider-social-links-wrapper">
       <ul class="social-icons">
-         <li class="tm-social-facebook"><a target="_blank" :href="facebook"><i class="fa fa-facebook"></i></a></li>
-         <li class="tm-social-linkedin"><a target="_blank" :href="linkedIn"><i class="fa fa-linkedin"></i></a></li>
+         <li class="tm-social-facebook"><a target="_blank" :href="facebook" aria-label="Read more about in facebook"><i class="fa fa-facebook"></i></a></li>
+         <li class="tm-social-linkedin"><a target="_blank" :href="linkedIn" aria-label="Read more about in linkedin"><i class="fa fa-linkedin"></i></a></li>
       </ul>
    </div>
    <div class="banner_slider banner_slider_wide">

@@ -18,6 +18,7 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-display: auto;
 }
 
 $flaticon-map: (

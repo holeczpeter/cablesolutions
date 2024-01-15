@@ -3,7 +3,14 @@
       <div class="container">
          <div class="row">
             <div class="col-lg-5">
-               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2724.3270895791907!2d20.0715225760728!3d46.93561013407185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474158a035b0b365%3A0xb29078aae4ed0bbe!2sTiszak%C3%A9cske%2C%20D%C3%B3zsa%20Telep%20u.%2083%2C%206060!5e0!3m2!1shu!2shu!4v1705164223073!5m2!1shu!2shu" width="600" height="550"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               <iframe  title="location" 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2724.3270895791907!2d20.0715225760728!3d46.93561013407185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474158a035b0b365%3A0xb29078aae4ed0bbe!2sTiszak%C3%A9cske%2C%20D%C3%B3zsa%20Telep%20u.%2083%2C%206060!5e0!3m2!1shu!2shu!4v1705164223073!5m2!1shu!2shu" 
+                        width="600" 
+                        height="550"  
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+               </iframe>
             </div>
             <div class="col-lg-7">
                <div class="padding_top20 res-991-padding_top40">

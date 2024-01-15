@@ -35,9 +35,9 @@
                      <div class="featured-content">
                         <div class="featured-title">
                            <h3>
-                              <a :href="'/product/' + product.link" v-if="this.$i18n.locale == 'hu'">{{ product.title_hu }}</a>
-                              <a :href="'/product/' + product.link" v-if="this.$i18n.locale == 'en'">{{ product.title_en }}</a>
-                              <a :href="'/product/' + product.link" v-if="this.$i18n.locale == 'nl'">{{ product.title_nl  }}</a>
+                              <a :href="'/product/' + product.link" v-if="this.$i18n.locale == 'hu'" aria-label="Read more about products">{{ product.title_hu }}</a>
+                              <a :href="'/product/' + product.link" v-if="this.$i18n.locale == 'en'" aria-label="Read more about products">{{ product.title_en }}</a>
+                              <a :href="'/product/' + product.link" v-if="this.$i18n.locale == 'nl'" aria-label="Read more about products">{{ product.title_nl  }}</a>
                            </h3>
                            <div class="ttm-details-link">
                               <a :href="'/product/' + product.link">

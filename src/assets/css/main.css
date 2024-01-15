@@ -126,7 +126,7 @@ select{
     border-radius: 0;
     vertical-align: middle;
     width: 100%;
-    color: #8093a8;
+    color: #545454;
     padding: 13px 15px 14px;
     border-radius: 0;
     font-weight: 400;
@@ -2184,6 +2184,7 @@ nav.main-menu .megamenu-content .title{
     height: 100%;
     background-position: center;
     background-size: cover;
+    
 }
 .slick-active .slide_img {
     -webkit-animation-delay: 24s;
