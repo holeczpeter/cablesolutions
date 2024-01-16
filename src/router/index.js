@@ -4,7 +4,7 @@ import Product from '../components/products/Product.vue'
 import AboutTwo from '../components/about/About.vue'
 const routes = [
   {
-    path: '/',
+    path: '/:pathMatch(.*)*',
     name: Home,
     meta: {
       title: "Home",
@@ -29,13 +29,7 @@ const routes = [
     },
     component: () => import("../components/about/AboutTwo.vue"),
   },
-  {
-    path: '/:pathMatch(.*)*',
-    name: '404',
-    component: {
-      template: '404 Not Found',
-    },
-  },
+  
   
 ]
 
