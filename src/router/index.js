@@ -15,6 +15,7 @@ const routes = [
   {
     path: "/product/:id",
     name: Product,
+    
     meta: {
       title: "Product",
     },
@@ -49,9 +50,11 @@ const router = createRouter({
     }
   },
 })
+
 router.beforeEach(function (to, from, next) { 
   setTimeout(() => {
     if (to.hash) {
+     
       return {
         el: to.hash,
       }
