@@ -41,7 +41,7 @@
                                             
                                         </div>
                                         <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-white w-100 text-center" 
-                                        :href="'#contact'">
+                                        :href="'/'"  v-scroll-to="'#contact'">
                                         {{$t('footer.request-form')}}</a>
                                     </div>
                                 </div>
@@ -52,7 +52,7 @@
                      <h3 class="widget-title">{{$t('footer.site-links')}}</h3>
                      <ul id="menu-footer-quick-links" class="menu">
                         <li v-for="(item, index) in menuitems" :key="index">
-                           <a :href="'/'+item.routerlink">{{$t(item.title)}}</a>
+                           <a :href="'/'" v-scroll-to="item.routerlink">{{$t(item.title)}}</a>
                         </li>
                         
                      </ul>

@@ -26,6 +26,7 @@
                            <nav class="main-menu menu-mobile" :class="{ 'show': mobileMenuVisible }" id="menu">
                               <ul class="menu">
                                  <li class="mega-menu-item" v-for="(item, index) in menuitems" :key="index">
+                                    
                                     <a :href="'/'" v-scroll-to="item.routerlink" v-if=isHome>{{ $t(item.title) }}</a>
                                     <a :href="'/'+item.routerlink" v-if=!isHome>{{ $t(item.title) }}</a>
                                  </li>

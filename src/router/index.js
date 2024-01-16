@@ -4,7 +4,7 @@ import Product from '../components/products/Product.vue'
 import AboutTwo from '../components/about/About.vue'
 const routes = [
   {
-    path: '/:pathMatch(.*)*',
+    path: '/',
     name: Home,
     meta: {
       title: "Home",
@@ -29,21 +29,41 @@ const routes = [
     },
     component: () => import("../components/about/AboutTwo.vue"),
   },
+  {
+    path: '/:pathMatch(.*)*',
+    name: '404',
+    component: {
+      template: '404 Not Found',
+    },
+  },
+  
 ]
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
-  scrollBehavior (to, from, savedPosition) {
-    
+  scrollBehavior(to, from, savedPosition) {
     if (to.hash) {
-      return {selector: to.hash}
-    } else if (savedPosition) {
-      return savedPosition
-    } else {
-      return { x: 0, y: 0 }
+      return {
+        el: to.hash,
+      }
     }
-  }
+    if (savedPosition) {
+      return savedPosition;
+    } else {
+      return { x: 0, y: 0 };
+    }
+  },
 })
-
+router.beforeEach(function (to, from, next) { 
+  setTimeout(() => {
+    if (to.hash) {
+      return {
+        el: to.hash,
+      }
+    }
+      
+  }, 100);
+  next();
+});
 export default router
