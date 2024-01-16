@@ -17,7 +17,7 @@
                   <div class="col-lg-12">
                      <div class="slide__content--headings ttm-textcolor-white text-center">
                         <h3  data-animation="fadeInDown">{{ $t('welcome') }}</h3>
-                        <h2  data-animation="fadeInDown">Your <strong>problem</strong> our <strong>challenge</strong></h2>
+                        <h2  data-animation="fadeInDown">{{ $t('quote') }}</h2>
                         <p  data-animation="fadeInDown">{{ $t('slider-about') }}<br>{{ $t('slider-about-2') }} </p>
                         <div class="d-inline-block margin_top30 res-767-margin_top20" data-animation="fadeInUp" data-delay="1.4">
                            <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-fill ttm-btn-color-skincolor margin_right15" href="#" v-scroll-to="'#about'">{{$t('more-detail')}}</a>

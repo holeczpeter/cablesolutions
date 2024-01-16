@@ -36,7 +36,6 @@
          </div>
          <div class="row">
             <div class="col-lg-12">
-              
                <div class="padding_bottom90 res-991-padding_bottom0"></div>
             </div>
          </div>

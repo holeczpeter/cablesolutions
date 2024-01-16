@@ -1,7 +1,7 @@
 <template>
    <div class="site-main">
-      <ContactForm/>
-      <ContactInfo/>
+      <ContactForm id="form"/>
+      <ContactInfo id="info"/>
    </div>
 </template>
 <script>

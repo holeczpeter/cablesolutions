@@ -31,19 +31,34 @@
       <div class="second-footer">
          <div class="container">
             <div class="row">
-               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 widget-area">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 widget-area">
+                            <div class="widget widget_text margin_right10 clearfix">
+                                <h3 class="widget-title">{{$t('footer.get-in-touch')}}</h3>
+                                <div class="textwidget widget-text">
+                                    <div class="call_detail">
+                                        <h3 class="fs-24">{{contact.phone}}</h3>
+                                        <div class="padding_top10 padding_bottom10">
+                                            
+                                        </div>
+                                        <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-white w-100 text-center" 
+                                        :href="'#contact'">
+                                        {{$t('footer.request-form')}}</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 widget-area">
                   <div class="widget widget_nav_menu clearfix">
-                     <h3 class="widget-title">{{$t('products')}}</h3>
+                     <h3 class="widget-title">{{$t('footer.site-links')}}</h3>
                      <ul id="menu-footer-quick-links" class="menu">
-                        <li><a href="fabric-printing.html">Patch Fabric Works</a></li>
-                        <li><a href="fabric-dyeing.html">Garment Stitching</a></li>
-                        <li><a href="engineering.html">Pattern, Art Making</a></li>
-                        <li><a href="manufacture.html">Stone Work Embroidery</a></li>
-                        <li><a href="we-design-fabric-2.html">Computerised Embroidery</a></li>
+                        <li v-for="(item, index) in menuitems" :key="index">
+                           <a :href="'/'+item.routerlink">{{$t(item.title)}}</a>
+                        </li>
+                        
                      </ul>
                   </div>
                </div>
-               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 widget-area">
+               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 widget-area">
                   <div class="widget widget-latest-tweets clearfix">
                      <h3 class="widget-title">{{$t('contact')}}</h3>
                      <ul class="widget_contact_wrapper">
@@ -82,7 +97,13 @@ export default {
     return {
       facebook: socialmedia.facebook,
       linkedIn: socialmedia.linkedIn,
-      contact:contact
+      contact:contact,
+      menuitems:[
+        { title: 'home', routerlink: '#home' },
+        { title: 'about', routerlink: '#about'},
+        { title: 'products', routerlink: '#product'},
+        { title: 'contact', routerlink: '#contact'},
+      ],
     };
   },
 }

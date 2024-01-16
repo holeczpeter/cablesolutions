@@ -12,7 +12,14 @@ export default {
   components: {
     Footer
   },
-  
+  metaInfo () {
+    return {
+      htmlAttrs: {
+        lang: this.$i18n.locale
+      },
+     
+    }
+  },
 }
 </script>
 

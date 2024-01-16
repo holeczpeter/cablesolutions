@@ -8,16 +8,44 @@
   "slider-about":" Elektromos vezetékeket, dobozokat és táblákat gyártunk, valamint elektromos szekrényeket is összeszerelünk.",
   "slider-about-2":"Minden teljes megoldásért állunk rendelkezésre.",
   "more-detail":"Ismerjen meg minket",
+  "quote":"Az Ön problémája a mi kihívásunk",
+  "next":"Következő",
+  "previous":"Előző",
+  "footer":{
+    "site-links":"Site links",
+    "request-form":"Online kapcsolatfelvétel",
+    "get-in-touch":"Vegye fel velünk a kapcsolatot"
+    
+  },
   "about-page":{
     "section-title":"Ismerjen meg minket",
     "title":"Elektromos és elektronikai gyártás",
-    "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "detail":"Magyar szöveg: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "since":"2011 óta",
-    "check-1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "check-2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "check-3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "check-1":"A teljes gyártás nagyon tapasztalt",
+    "check-2":"A legjobb gépekkel dolgozunk",
+    "check-3":"Holland vezetőség",
     "view-more":"Tudjon meg többet",
     "contact":"Vegye fel velünk a kapcsolatot"
+  },
+  "about-page-2":{
+    "page-title":"Ismerjen meg minket",
+    "title":"Elektromos és elektronikai gyártás",
+    "description": "Magyar szöveg: Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "paragraph": "Magyar szöveg: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "owner":"Tulajdonos",
+    "quality": "Kiváló minőség", 
+    "quality-description":"Magyar szöveg: Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "flexibility": "Rugalmasság",
+    "flexibility-description": "Magyar szöveg: Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "high-efficiency": "Magas hatákonyság",
+    "high-efficiency-description": "Magyar szöveg: High efficiency Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  },
+  "team":{
+    "our-team":"Our team",
+    "experience-team":"EXPERIENCE TEAM",
+    "meet":"Meet Our Awesome Team Member"
+
   },
   "statistics-page":{
     "title-1":"Elektromos",
@@ -31,14 +59,23 @@
   "products-page":{
     "title":"Termékeink",
     "subtitle":"Kiváló minőségű termékeket gyártunk",
-    "description":"Loream ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    "description":"Magyar szöveg: Loream ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     "more":"További termékeink"
+  },
+  "product-detail-page":{
+    "category":"Kategória",
+    "date":"Dátum",
+    "project":"Projekt",
+    "information":"Termék információk",
+    "shortdescription":"Magyar szöveg: Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "related-products":"Kapcsolódó termékek",
+    "paragraph": "Magyar szöveg: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   
   "contact-us-page":{
     "title":"Kapcsolat",
     "subtitle":"Lépjen kapcsolatba velünk!",
-    "description":"Loream ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "description":"Magyar szöveg: Loream ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "head-office":"Központi irodánk",
     "branch-office":"Fiók irodánk",
     "address":"Cím",

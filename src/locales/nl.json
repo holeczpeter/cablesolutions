@@ -8,16 +8,43 @@
   "slider-about":"Productie van elektrische kabelbomen, elektrische kasten en panelen, kastmontage.",
   "slider-about-2":"Voor alle elektrische totaaloplossingen.",
   "more-detail":"meer details",
+  "quote":"Your problem our challenge",
+  "next":"Volgende",
+  "previous":"Vorig",
+  "footer":{
+    "site-links":"Site links",
+    "request-form":"Online formulier aanvragen",
+    "get-in-touch":"Neem contact op met ons"
+  },
   "about-page":{
     "section-title":"Leer ons kennen",
     "title":"Elektrische en elektronische productie",
-    "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "detail":"Nederlandse tekst:Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "since":"sinds 2011",
-    "check-1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "check-2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "check-3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "check-1":"Ook de gehele productie is zeer ervaren",
+    "check-2":"Wij werken uitsluitend met de beste machines",
+    "check-3":"Nederlands bestuur",
     "view-more":"Bekijk meer",
     "contact":"Neem contact met ons op"
+  },
+  "about-page-2":{
+    "page-title":"Leer ons kennen",
+    "title":"Elektrische en elektronische productie",
+    "description": "Nederlandse tekst:Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "paragraph": "Nederlandse tekst:Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "owner":"Eigenaar",
+    "quality": "Uitstekende kwaliteit", 
+    "quality-description":"Nederlandse tekst: Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "flexibility": "Flexibiliteit",
+    "flexibility-description": "Nederlandse tekst: Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "high-efficiency": "Hoge efficiëntie",
+    "high-efficiency-description": "Nederlandse tekst:High efficiency Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  },
+  "team":{
+    "our-team":"Our team",
+    "experience-team":"EXPERIENCE TEAM",
+    "meet":"Meet Our Awesome Team Member"
+
   },
   "statistics-page":{
     "title-1":"Electrical",
@@ -30,13 +57,19 @@
   "products-page":{
     "title":"Producten",
     "subtitle":"Wij bieden topproductie vanuit elke hoek",
-    "description":"Loream ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    "description":"Nederlandse tekst:Loream ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     "more":"Bekijk meer producten"
+  },
+  "product-detail-page":{
+    "information":"Productinformatie",
+    "shortdescription:":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "related-products":"Gerelateerde producten",
+    "paragraph": "Nederlandse tekst:Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   "contact-us-page":{
     "title":"NEEM CONTACT MET ONS OP",
     "subtitle":"Neem contact op!",
-    "description":"Loream ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "description":"Nederlandse tekst:Loream ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "head-office":"Hoofdkantoor",
     "branch-office":"Bijkantoor",
     "address":"Adres",

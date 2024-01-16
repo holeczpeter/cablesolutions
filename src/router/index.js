@@ -1,8 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Product from '../components/products/Product.vue'
-import Products from '../components/products/Products.vue'
-import About from '../components/about/About.vue'
+import AboutTwo from '../components/about/About.vue'
 const routes = [
   {
     path: '/:pathMatch(.*)*',
@@ -12,35 +11,39 @@ const routes = [
     },
     component: () => import("../views/Home.vue"),
   },
+  
   {
-    path: "/products",
-    name: Products,
-    meta: {
-      title: "Products",
-    },
-    component: () => import("../components/products/Products.vue"),
-  },
-  {
-    path: "/product",
+    path: "/product/:id",
     name: Product,
     meta: {
       title: "Product",
     },
     component: () => import("../components/products/Product.vue"),
+    props: true 
   },
   {
     path: "/about",
-    name: About,
+    name: AboutTwo,
     meta: {
-      title: "About",
+      title: "AboutTwo",
     },
-    component: () => import("../components/about/About.vue"),
+    component: () => import("../components/about/AboutTwo.vue"),
   },
 ]
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
+  routes,
+  scrollBehavior (to, from, savedPosition) {
+    
+    if (to.hash) {
+      return {selector: to.hash}
+    } else if (savedPosition) {
+      return savedPosition
+    } else {
+      return { x: 0, y: 0 }
+    }
+  }
 })
 
 export default router
