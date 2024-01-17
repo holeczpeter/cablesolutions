@@ -11,7 +11,14 @@ const routes = [
     },
     component: () => import("../views/Home.vue"),
   },
-  
+  {
+    path: '/',
+    name: Home,
+    meta: {
+      title: "Home",
+    },
+    component: () => import("../views/Home.vue"),
+  },
   {
     path: "/product/:id",
     name: Product,
