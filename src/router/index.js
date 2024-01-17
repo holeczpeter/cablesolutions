@@ -5,7 +5,7 @@ import AboutTwo from '../components/about/About.vue'
 const routes = [
   
   {
-    path: '/:pathMatch(.*)*',
+    path: '/',
     name: Home,
     meta: {
       title: "Home",
@@ -13,7 +13,15 @@ const routes = [
     component: () => import("../views/Home.vue"),
   },
   {
-    path: "/product/:id",
+    path: '/cablesolutions',
+    name: Home,
+    meta: {
+      title: "Home",
+    },
+    component: () => import("../views/Home.vue"),
+  },
+  {
+    path: "/cablesolutions/product/:id",
     name: Product,
     
     meta: {
@@ -23,7 +31,7 @@ const routes = [
     props: true 
   },
   {
-    path: "/about/",
+    path: "/cablesolutions/about/",
     name: AboutTwo,
     meta: {
       title: "AboutTwo",
