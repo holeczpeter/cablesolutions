@@ -13,7 +13,7 @@ const routes = [
     component: () => import("../views/Home.vue"),
   },
   {
-    path: '/cablesolutions',
+    path: '/cablesolutions/',
     name: Home,
     meta: {
       title: "Home",
@@ -30,16 +30,7 @@ const routes = [
     component: () => import("../components/products/Product.vue"),
     props: true 
   },
-  {
-    path: "/cablesolutions/product/:id",
-    name: Product,
-    
-    meta: {
-      title: "Product",
-    },
-    component: () => import("../components/products/Product.vue"),
-    props: true 
-  },
+  
   {
     path: "/about",
     name: AboutTwo,
@@ -56,8 +47,8 @@ const routes = [
       title: "AboutTwo",
     },
     component: () => import("../components/about/AboutTwo.vue"),
-  }
-  
+  },
+ 
   
 ]
 
