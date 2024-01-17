@@ -30,7 +30,7 @@ const routes = [
     props: true 
   },
   {
-    path: "/about",
+    path: "/about/",
     name: AboutTwo,
     meta: {
       title: "AboutTwo",
