@@ -10,7 +10,7 @@
                   </div>
                   <div class="breadcrumb-wrapper">
                      <span>
-                     <a title="Homepage" :href="'/'">{{$t('home')}}</a>
+                     <a title="Homepage" :href="'/cablesolutions'">{{$t('home')}}</a>
                      </span>
                      <span>{{$t('about')}}</span>
                   </div>
