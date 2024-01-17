@@ -2,11 +2,10 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Product from '../components/products/Product.vue'
 import AboutTwo from '../components/about/About.vue'
-import NotFound from '../components/NotFound.vue'
 const routes = [
   
   {
-    path: '/',
+    path: '/:pathMatch(.*)*',
     name: Home,
     meta: {
       title: "Home",
@@ -31,7 +30,7 @@ const routes = [
     },
     component: () => import("../components/about/AboutTwo.vue"),
   },
-  { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
+ 
   
 ]
 
