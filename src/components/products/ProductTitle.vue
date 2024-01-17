@@ -12,7 +12,7 @@
                   </div>
                   <div class="breadcrumb-wrapper">
                      <span>
-                     <a title="Homepage" :href="'/'">{{$t('home')}}</a>
+                     <a title="Homepage" :href="'/cablesolutions'">{{$t('home')}}</a>
                      </span>
                      <span  v-if="this.$i18n.locale == 'hu'">{{ currentProduct.title_hu }}</span>
                      <span  v-if="this.$i18n.locale == 'en'">{{ currentProduct.title_en }}</span>

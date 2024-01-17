@@ -37,8 +37,15 @@
                      </ul>
                   </div>
                   <div class="d-inline-block margin_top15">
-                     <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-fill ttm-btn-color-skincolor margin_right20 margin_top15" :href="'about'">{{ $t('about-page.view-more')}}!</a>
-                     <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-dark margin_top15" href="#" v-scroll-to="'#contact'">{{ $t('about-page.contact')}}</a>
+                     <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-fill ttm-btn-color-skincolor margin_right20 margin_top15" 
+                        :href="'about'">
+                        {{ $t('about-page.view-more')}}!
+                     </a>
+                     <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-dark margin_top15" 
+                        href="#" 
+                        v-scroll-to="'#contact'">
+                        {{ $t('about-page.contact')}}
+                     </a>
                   </div>
                </div>
             </div>
