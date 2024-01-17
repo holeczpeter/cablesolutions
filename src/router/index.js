@@ -13,14 +13,6 @@ const routes = [
     component: () => import("../views/Home.vue"),
   },
   {
-    path: '/',
-    name: Home,
-    meta: {
-      title: "Home",
-    },
-    component: () => import("../views/Home.vue"),
-  },
-  {
     path: '/cablesolutions',
     name: Home,
     meta: {
@@ -64,8 +56,8 @@ const routes = [
       title: "AboutTwo",
     },
     component: () => import("../components/about/AboutTwo.vue"),
-  },
- 
+  }
+  
   
 ]
 
