@@ -5,6 +5,14 @@ import AboutTwo from '../components/about/About.vue'
 const routes = [
   
   {
+    path: '/:pathMatch(.*)*',
+    name: Home,
+    meta: {
+      title: "Home",
+    },
+    component: () => import("../views/Home.vue"),
+  },
+  {
     path: '/',
     name: Home,
     meta: {
