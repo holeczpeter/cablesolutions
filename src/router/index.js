@@ -20,7 +20,14 @@ const routes = [
     },
     component: () => import("../views/Home.vue"),
   },
- 
+  {
+    path: '/cablesolutions/',
+    name: Home,
+    meta: {
+      title: "Home",
+    },
+    component: () => import("../views/Home.vue"),
+  },
   {
     path: "/product/:id",
     name: Product,
@@ -40,7 +47,7 @@ const routes = [
     },
     component: () => import("../components/about/AboutTwo.vue"),
   }
- 
+  { path: '/', redirect: '/cablesolutions/home' }
 
  
   
