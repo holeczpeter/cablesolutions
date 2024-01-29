@@ -1,7 +1,9 @@
 const { defineConfig } = require('@vue/cli-service')
+const publicPath = '';
+
 module.exports = defineConfig({
   transpileDependencies: true,
-  publicPath: process.env.NODE_ENV === "production" ? "/cablesolutions/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "" : "/",
   pluginOptions: {
     i18n: {
       locale: 'hu',

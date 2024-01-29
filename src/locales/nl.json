@@ -5,8 +5,8 @@
   "contact": "Contact",
   "affordable-quality":"Betaalbare kwaliteit",
   "welcome":"Welkom",
-  "slider-about":"Productie van elektrische kabelbomen, elektrische kasten en panelen, kastmontage.",
-  "slider-about-2":"Voor alle elektrische totaaloplossingen.",
+  "slider-about":"Assemblage van kabelzwepen, band-, stuurstroom-, spiralkabels, besturing-, en schakelkasten",
+  "slider-about-2":"",
   "more-detail":"meer details",
   "quote":"Your problem our challenge",
   "next":"Volgende",
@@ -14,31 +14,43 @@
   "footer":{
     "site-links":"Site links",
     "request-form":"Online formulier aanvragen",
-    "get-in-touch":"Neem contact op met ons"
+    "get-in-touch":"Neem contact op met ons",
+    "title":"Kabelassemblage en panelenbouw"
   },
   "about-page":{
     "section-title":"Leer ons kennen",
-    "title":"Elektrische en elektronische productie",
-    "detail":"Nederlandse tekst:Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "title":"Kabelassemblage en panelenbouw",
+    "detail":"Cable Solutions  is sinds 2011 aanwezig op de elektronicamarkt als assemblagebedrijf voor kabel, draad en schakel-, besturings-, verdeelkasten, met Nederlandse management en productielocatie in Hongarije.",
     "since":"sinds 2011",
-    "check-1":"Ook de gehele productie is zeer ervaren",
-    "check-2":"Wij werken uitsluitend met de beste machines",
-    "check-3":"Nederlands bestuur",
+    "subtitle":"Holland fordítás hiányzik:We can promise if you give us the chance you never regret it.",
+    "checklist":"Wij bieden oplossingen op verschillende gebieden",
+    "check-1":"assemblage en voorbewerking van elektronische componenten en producten",
+    "check-2":"inkoop van materialen",
+    "check-3":"gebruik van door de klant aangeleverde materialen",
     "view-more":"Bekijk meer",
     "contact":"Neem contact met ons op"
   },
   "about-page-2":{
     "page-title":"Leer ons kennen",
-    "title":"Elektrische en elektronische productie",
-    "description": "Nederlandse tekst:Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "paragraph": "Nederlandse tekst:Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "title":"Kabelassemblage en panelenbouw ",
+    "description": "",
+    "paragraph-1": "Cable Solutions  is sinds 2011 aanwezig op de elektronicamarkt als assemblagebedrijf voor kabel, draad en schakel-, besturings-, verdeelkasten, met Nederlandse management en productielocatie in Hongarije.",
+    "paragraph-2": "Tijden ons ruim 13 jarig bestaan is de tevredenheid van onze klanten voor ons het allerbelangrijkste, velen van hun vertrouwen ons al vanaf het begin. Wij ontvangen  bestellingen uit veel Europese landen.",
+    "paragraph-3": "Onze medewerkers kunnen zorgvuldig en nauwkeurig multitasken en beschikken over een goede fijne motoriek, waardoor kwaliteit wordt gegarandeerd. ",
+ 
+    "why":"Waarom voor ons kiezen:/ waarom samenwerken",
+    "why-answer-1":"scherper prijzen dan bedrijven met productielocaties in West-Europa",
+    "why-answer-2":"nauwkeurig werken",
+    "why-answer-3":"Nederlands management, Hongaarse productie",  
+    "why-answer-4":"top kwaliteit materialen ( Phoenix Contact, Weidmuller, Finder, Schneider…)",  
+    "why-answer-5":"op tijd levering",
     "owner":"Eigenaar",
-    "quality": "Uitstekende kwaliteit", 
-    "quality-description":"Nederlandse tekst: Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    "flexibility": "Flexibiliteit",
-    "flexibility-description": "Nederlandse tekst: Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    "high-efficiency": "Hoge efficiëntie",
-    "high-efficiency-description": "Nederlandse tekst:High efficiency Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    "quality": "Top kwaliteit", 
+    "quality-description":"Wij produceren in onze eigen productiefaciliteit in Hongarije met Nederlands management, wij garanderen hoog rendement en uitstekende kwaliteit. ",
+    "flexibility": "Snelle bezorging",
+    "flexibility-description": "Door de efficiënte productie en een goede afstemming van de logistiek zult u ook geen verschil merken bij de levering van de meeste van onze concurrenten.",
+    "high-efficiency": "Snelle bezorging",
+    "high-efficiency-description": "Door onze jarenlange ervaring zijn wij in staat  alle voorkomende montages tot een goed resultaat te brengen, en daarmee een langdurige samenwerking te dekken"
   },
   "team":{
     "our-team":"Our team",
@@ -50,15 +62,19 @@
     "title-1":"Electrical",
     "title-2":"en elektronica ",
     "title-3":"vervaardigend",
-    "projects":"Afgeronde projecten",
-    "clients":"Vertrouwde klanten",
-    "experience":"Jarenlange ervaring"
+    "projects":"producten",
+    "clients":"klanten",
+    "experience":"ervaring",
+    "projects-value":"Honderden",
+    "clients-value":"Veel tevreden",
+    "experience-value":"Meer dan 10 jaar"
   },
   "products-page":{
     "title":"Producten",
     "subtitle":"Wij bieden topproductie vanuit elke hoek",
-    "description":"Nederlandse tekst:Loream ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    "more":"Bekijk meer producten"
+    "description":"Fordításra vár: Az általunk gyártott termékek között megtalálhatók a legkülönbözőbb kábelkorbácsok, szalag-, vezérlő-, és spirálkábelek, valamint nagy tapasztalattal rendelkezünk a vezérlő-, és kapcsoló szekrények építésében is.",
+    "more":"Bekijk meer producten",
+    "read-more":"Lees verder"
   },
   "product-detail-page":{
     "information":"Productinformatie",
@@ -69,7 +85,7 @@
   "contact-us-page":{
     "title":"NEEM CONTACT MET ONS OP",
     "subtitle":"Neem contact op!",
-    "description":"Nederlandse tekst:Loream ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "description":"Besteed de productie van uw kabels aan ons uit en bespaar op airbeidskosten.",
     "head-office":"Hoofdkantoor",
     "branch-office":"Bijkantoor",
     "address":"Adres",

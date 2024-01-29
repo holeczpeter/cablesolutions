@@ -6,8 +6,8 @@
   "contact": "Contact Us",
   "affordable-quality":"Affordable quality",
   "welcome":"Welcome",
-  "slider-about":"Production of electrical harnesses, electrical boxes and panel, cabinet assembly.",
-  "slider-about-2":"For all electrical total solutions.",
+  "slider-about":"Assembly of cable whips, ribbon, control and spiral cables, control and switch cabinets/boxes",
+  "slider-about-2":"",
   "more-detail":"More details",
   "quote":"Your problem our challenge",
   "next":"Next",
@@ -15,32 +15,44 @@
   "footer":{
     "site-links":"Site links",
     "request-form":"Request Online Form",
-    "get-in-touch":"Get in touch with us"
+    "get-in-touch":"Get in touch with us",
+    "title":"Cable and cabinet assembly"
   },
   "about-page":{
     "section-title":"Wo we are",
-    "title":"Electrical and Electronics Manufacturing",
-    "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "title":"Cable and cabinet assembly",
+    "detail":"Cable Solutions has been present on the electronic products market since 2011 as a company assembling cable, wire and electronic control boxes, with Dutch management and production site in Hungary.",
     "since":"since 2011",
-    "check-1":"Entire production is also very experienced",
-    "check-2":"We only work with the best machines",
-    "check-3":"Dutch management",
+    "subtitle":"We can promise if you give us the chance you never regret it.",
+    "checklist":"We offer solutions in several areas",
+    "check-1":"assembly and pre-processing of electronic components and products",
+    "check-2":"procurement of raw materials",
+    "check-3":"use of materials supplied by the customer",
     "view-more":"View More",
     "contact":"Contact Us"
     
   },
   "about-page-2":{
-    "section-title":"Wo we are",
-    "title":"Electrical and Electronics Manufacturing",
-    "description": "English text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "paragraph": "English text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "page-title":"Wo we are",
+    "title":"Cable and cabinet assembly",
+    "description": "",
+    "paragraph-1": "Cable Solutions has been present on the electronic products market since 2011 as a company assembling cable, wire and electronic control boxes, with Dutch management and production site in Hungary",
+    "paragraph-2": "Since our more than 13 years of existence, the satisfaction of our customers is the most important  for us, many of them have trusted us since the beginning.  We receive orders from many European countries. ",
+    "paragraph-3": "Our employees are able to solve a wide variety of tasks with precise and careful work, and have fine motor skills so ensuring quality. Our company has all the materials and tools available for the production and testing of the mentioned products.",
+    "why":"Why cooperate:",
+    "why-answer-1":"lower prices than companies with production West-Europe",
+    "why-answer-2":"precise work",
+    "why-answer-3":"Dutch management Hungarian production",  
+    "why-answer-4":"high quality materials ( Phoenix Contact, Weidmuller, Finder, Schneider…)",  
+    "why-answer-5":"on-time deliveries",
+    
     "owner":"Owner",
     "quality": "Excellent quality", 
-    "quality-description":"English text: Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    "flexibility": "Flexibility",
-    "flexibility-description": "English text: Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    "high-efficiency": "High efficiency",
-    "high-efficiency-description": "English text: High efficiency Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    "quality-description":"We manufacture in our own production facility in Hungary with Dutch management we guarantee a high efficiency and excellent quality.",
+    "flexibility": "Fast delivery",
+    "flexibility-description": "The efficient production and proper adjustment of the logistics you will also notice no difference in the delivery of most of our competitors.",
+    "high-efficiency": "Experience",
+    "high-efficiency-description": "Through our years of experience we are able to manage all common assemblies to bring a good result and thus long-term collaboration to cover."
     
   },
   "team":{
@@ -50,20 +62,23 @@
 
   },
   "statistics-page":{
-    "title-1":"Electrical",
-    "title-2":"and Electronics ",
-    "title-3":"Manufacturing",
-    "projects":"Finished Projects",
-    "clients":"Trusted Clients",
-    "experience":"Years of Experience"
-   
+    "title-1":"Cable",
+    "title-2":"and cabinet ",
+    "title-3":"assembly",
+    "projects":"products",
+    "clients":"satisfied customer",
+    "experience":"experience",
+    "projects-value":"Hundreds",
+    "clients-value":"There are many",
+    "experience-value":"More than 10 years of"
   },
   
   "products-page":{
     "title":"Products",
     "subtitle":"We Give Top Production From Every Angle",
-    "description":"English text: Loream ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    "more":"View more products"
+    "description":"Fordításra vár: Az általunk gyártott termékek között megtalálhatók a legkülönbözőbb kábelkorbácsok, szalag-, vezérlő-, és spirálkábelek, valamint nagy tapasztalattal rendelkezünk a vezérlő-, és kapcsoló szekrények építésében is.",
+    "more":"View more products",
+    "read-more":"Read more"
   },
   "product-detail-page":{
     "category":"Category",
@@ -77,7 +92,7 @@
   "contact-us-page":{
     "title":"CONTACT US",
     "subtitle":"Get In Touch!",
-    "description":"English text: Loream ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "description":"Outsource the production of your cables to us and save labour costs.",
     "head-office":"Head Office",
     "branch-office":"Head Office",
     "address":"Address",

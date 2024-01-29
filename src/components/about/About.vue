@@ -25,11 +25,12 @@
                         <img class="img-fluid auto_size" width="168" height="88" src="../../assets/img/Symbol.jpg" alt="symbol">
                      </div>
                      <div class="pl-4 res-575-padding_left0 res-575-margin_top15">
-                        <h3 class="fs-20 mb-0 pr-5 res-991-padding_right0">Our Electronics Manufacturing Found In 2011</h3>
+                        <h3 class="fs-20 mb-0 pr-5 res-991-padding_right0">{{ $t('about-page.subtitle')}}</h3>
                      </div>
                   </div>
                   <div class="ttm-horizontal_sep width-100 margin_top30 padding_bottom30"></div>
                   <div>
+                   <p>{{ $t('about-page.checklist')}}</p>
                      <ul class="ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor ttm-textcolor-darkgrey without-border">
                         <li><i class="ti ti-check"></i><span class="ttm-list-li-content">{{ $t('about-page.check-1')}}</span></li><br>
                         <li><i class="ti ti-check"></i><span class="ttm-list-li-content">{{ $t('about-page.check-2')}}</span></li><br>

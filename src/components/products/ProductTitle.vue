@@ -1,5 +1,6 @@
  <template>
-    <div class="ttm-page-title-row ttm-bg ttm-bgimage-yes ttm-bgcolor-darkgrey clearfix">
+    <div class="ttm-page-title-row ttm-bg ttm-bgimage-yes ttm-bgcolor-darkgrey clearfix " 
+    :class="id === 1 ? 'product1': 'product2'">
       <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
       <div class="container">
          <div class="row align-items-center">
@@ -12,7 +13,7 @@
                   </div>
                   <div class="breadcrumb-wrapper">
                      <span>
-                     <a title="Homepage" :href="'/cablesolutions'">{{$t('home')}}</a>
+                     <a title="Homepage" :href="`${$route.meta.basePath || ''}/`">{{$t('home')}}</a>
                      </span>
                      <span  v-if="this.$i18n.locale == 'hu'">{{ currentProduct.title_hu }}</span>
                      <span  v-if="this.$i18n.locale == 'en'">{{ currentProduct.title_en }}</span>
@@ -30,7 +31,8 @@ export default {
   name: 'Product',
   data(){
     return { 
-        currentProduct:data.items.find(x=>x.id == this.$route.params.id)
+        currentProduct:data.items.find(x=>x.id == this.$route.params.id),
+        id: data.items.find(x=>x.id == this.$route.params.id)?.id
         } 
   }
 }

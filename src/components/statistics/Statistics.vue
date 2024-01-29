@@ -6,7 +6,7 @@
             <div class="col-lg-8 m-auto">
                <div class="section-title title-style-center_text">
                   <div class="title-header">
-                     <h2 class="title">{{$t('statistics-page.title-1')}} <b class="ttm-textcolor-skincolor">{{$t('statistics-page.title-2')}} </b>{{$t('statistics-page.title-3')}}.</h2>
+                     <h2 class="title">{{$t('statistics-page.title-1')}} {{$t('statistics-page.title-2')}} {{$t('statistics-page.title-3')}}.</h2>
                   </div>
                </div>
             </div>
@@ -18,16 +18,8 @@
                      <i class="flaticon" :class="item.icon"></i>
                   </div>
                   <div class="ttm-fid-contents">
-                     <h4 class="ttm-fid-inner">
-                        <span  data-appear-animation="animateDigits" 
-                           data-from="0" 
-                           data-to="350" 
-                           data-interval="15" 
-                           data-before="" 
-                           data-before-style="sup" 
-                           data-after=""
-                           data-after-style="sub" 
-                           class="numinate">{{item.value}}</span>
+                     <h4 class="ttm-fid-inner ">
+                        <span  class="ttm-textcolor-skincolor" data-appear-animation="animateDigits"> {{ $t(item.value) }}</span>
                      </h4>
                      <h3 class="ttm-fid-title">{{ $t(item.title) }}</h3>
                   </div>
@@ -48,9 +40,9 @@ export default {
  data() {
     return {
       fidItems: [
-        { icon: 'flaticon flaticon-suit', value: 350, title: 'statistics-page.clients', animate: true },
-        { icon: 'flaticon flaticon-fabric', value: 215, title: 'statistics-page.projects', animate: true },
-        { icon: 'flaticon flaticon-factory', value: 13, title: 'statistics-page.experience', animate: true },
+      { icon: 'flaticon flaticon-factory', value: 'statistics-page.experience-value', title: 'statistics-page.experience', animate: true },
+      { icon: 'flaticon flaticon-yarn', value: 'statistics-page.projects-value', title: 'statistics-page.projects', animate: true },
+      { icon: 'flaticon flaticon-warehouse', value: 'statistics-page.clients-value', title: 'statistics-page.clients', animate: true },
       ],
     };
   },

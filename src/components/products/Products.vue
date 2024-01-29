@@ -1,5 +1,5 @@
 <template>
-   <div>
+<div>
       <section class="ttm-row padding_zero-section clearfix">
          <div class="container">
             <div class="row">
@@ -27,7 +27,7 @@
       <section class="ttm-row padding_top_zero-section mt_210 res-991-margin_top_30 position-relative z-index-2 clearfix">
          <div class="container">
             <div class="row slick_slider" data-slick='{"slidesToShow": 3, "slidesToScroll": 1, "arrows":false, "autoplay":false, "dots":false, "infinite":true, "responsive":[{"breakpoint":992,"settings":{"slidesToShow": 2}},{"breakpoint":840,"settings":{"slidesToShow": 2}},{"breakpoint":650,"settings":{"slidesToShow": 1}}]}'>
-               <div class="col-md-4 col-sm-6" v-for="(product, key) in products" :key="key">
+               <div class="col-md-6 col-sm-6" v-for="(product, key) in products" :key="key">
                   <div class="featured-imagebox featured-imagebox-services style1">
                      <div class="featured-thumbnail">
                         <img class="img-fluid" :src="product.pic" alt="image">
@@ -54,14 +54,7 @@
                   </div>
                </div>
             </div>
-            <div class="row">
-               <div class="col-lg-12 text-center">
-                  <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-dark margin_top30" 
-                     href="javascript:void(0)" v-on:click="myMethod($event)">
-                   {{ $t('products-page.more')}}
-                  </a>
-               </div>
-            </div>
+            
          </div>
       </section>
    </div>

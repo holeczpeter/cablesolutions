@@ -103,9 +103,9 @@ export default {
   name: 'ContactInfo',
   data() {
     return {
-      head_office_phone:"+31 165 856230",
-      head_office_email:"administration@cablesolutions.eu",
-      branch_office_phone:"+31 621 955470",
+      head_office_phone:"+31 646 445 893",
+      head_office_email:"e.baselier@cablesolutions.eu",
+      branch_office_phone:"+31 646 445 893",
       branch_office_email:"administration@cablesolutions.eu",
     };
   },

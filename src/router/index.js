@@ -9,14 +9,16 @@ const routes = [
     name: Home,
     meta: {
       title: "Home",
+      basePath: process.env.VUE_APP_PUBLIC_PATH || ''
     },
     component: () => import("../views/Home.vue"),
   },
   {
-    path: '/cablesolutions/',
+    path: '/',
     name: Home,
     meta: {
       title: "Home",
+      basePath: process.env.VUE_APP_PUBLIC_PATH || ''
     },
     component: () => import("../views/Home.vue"),
   },
@@ -26,6 +28,7 @@ const routes = [
     
     meta: {
       title: "Product",
+      basePath: process.env.VUE_APP_PUBLIC_PATH || ''
     },
     component: () => import("../components/products/Product.vue"),
     props: true 
@@ -36,20 +39,10 @@ const routes = [
     name: AboutTwo,
     meta: {
       title: "AboutTwo",
+      basePath: process.env.VUE_APP_PUBLIC_PATH || ''
     },
     component: () => import("../components/about/AboutTwo.vue"),
   },
- 
-  {
-    path: "/cablesolutions/about/",
-    name: AboutTwo,
-    meta: {
-      title: "AboutTwo",
-    },
-    component: () => import("../components/about/AboutTwo.vue"),
-  },
- 
-  
 ]
 
 const router = createRouter({

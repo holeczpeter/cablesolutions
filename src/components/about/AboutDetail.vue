@@ -8,6 +8,7 @@
                   <div class="ttm_single_image-wrapper text-left">
                      <img class="img-fluid" src="../../assets/img/about-2.jpg" alt="about">
                   </div>
+                  
                </div>
                <div class="col-lg-6 col-md-12 col-xs-12">
                   <div class="padding_top20 res-991-padding_top40">
@@ -15,14 +16,24 @@
                      <div class="section-title">
                         <div class="title-header">
                            <h3>{{$t('about-page-2.title')}}</h3>
-                           <h2 class="title">{{$t('about-page-2.description')}}</h2>
+                           <h2 class="title justify-p">{{$t('about-page-2.description')}}</h2>
                         </div>
                         <div class="title-desc">
-                           <p>{{ $t('about-page-2.paragraph') }}</p>
+                           <p class="justify-p">{{ $t('about-page-2.paragraph-1') }}</p>
+                           <p class="justify-p">{{ $t('about-page-2.paragraph-2') }}</p>
+                           <p class="justify-p">{{ $t('about-page-2.paragraph-3') }}</p>
+                           <p>{{ $t('about-page-2.why') }}</p>
+                           <ul class="ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor ttm-textcolor-darkgrey without-border">
+                              <li><i class="ti ti-check"></i><span class="ttm-list-li-content">{{ $t('about-page-2.why-answer-1')}}</span></li><br>
+                              <li><i class="ti ti-check"></i><span class="ttm-list-li-content">{{ $t('about-page-2.why-answer-2')}}</span></li><br>
+                              <li><i class="ti ti-check"></i><span class="ttm-list-li-content">{{ $t('about-page-2.why-answer-3')}}</span></li><br>
+                              <li><i class="ti ti-check"></i><span class="ttm-list-li-content">{{ $t('about-page-2.why-answer-4')}}</span></li><br>
+                              <li><i class="ti ti-check"></i><span class="ttm-list-li-content">{{ $t('about-page-2.why-answer-5')}}</span></li><br>
+                           </ul>
                         </div>
                      </div>
                      <!-- section title end -->
-                     <div class="ttm-highlight-quote margin_top35 clearfix">
+                    <div class="ttm-highlight-quote margin_top35 clearfix">
                         <blockquote class=" ttm-bgcolor-grey">
                            <p>{{ $t('quote') }}</p>
                         </blockquote>
@@ -69,6 +80,7 @@
                         </div>
                      </div>
                   </div>
+                  
                </div>
             </div>
          </div>

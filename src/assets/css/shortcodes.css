@@ -873,7 +873,7 @@ i.fa-play{ padding-left: 5px; }
     margin-bottom: 0;
 }
 .featured-icon-box.icon-align-before-title .featured-content{ margin-top: 15px; }
-.featured-icon-box.icon-align-top-content .featured-content { padding-top: 15px; }
+.featured-icon-box.icon-align-top-content .featured-content { padding-top: 15px; min-height: 200px; }
 
 .container-fluid, .container { counter-reset: featuredbox-number; } 
 .featuredbox-number .ttm-num:before{ 
