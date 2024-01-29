@@ -3,7 +3,7 @@ const publicPath = '';
 
 module.exports = defineConfig({
   transpileDependencies: true,
-  publicPath: process.env.NODE_ENV === "production" ? "cablesolutions" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/cablesolutions/" : "/",
   pluginOptions: {
     i18n: {
       locale: 'hu',
