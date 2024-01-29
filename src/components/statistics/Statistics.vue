@@ -41,8 +41,8 @@ export default {
     return {
       fidItems: [
       { icon: 'flaticon flaticon-factory', value: 'statistics-page.experience-value', title: 'statistics-page.experience', animate: true },
-      { icon: 'flaticon flaticon-yarn', value: 'statistics-page.projects-value', title: 'statistics-page.projects', animate: true },
-      { icon: 'flaticon flaticon-warehouse', value: 'statistics-page.clients-value', title: 'statistics-page.clients', animate: true },
+      { icon: 'ti ti-crown', value: 'statistics-page.projects-value', title: 'statistics-page.projects', animate: true },
+      { icon: 'ti ti-user', value: 'statistics-page.clients-value', title: 'statistics-page.clients', animate: true },
       ],
     };
   },

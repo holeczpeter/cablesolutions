@@ -55,7 +55,10 @@ export const data = {
             pic01: require("../../assets/img/products/kábel6.jpg"),
             pic02: require("../../assets/img/products/kábel7.jpg")
           },
-        ]
+        ],
+        images:[ require("../../assets/img/products/kábel2.jpg"),
+          require("../../assets/img/products/kábel3.jpg")
+        ],
         },
         { 
           id:2,
@@ -110,7 +113,10 @@ export const data = {
             pic01: require("../../assets/img/products/doboz6.jpg"),
             pic02: require("../../assets/img/products/doboz7.jpg")
           },
-        ]
+        ],
+        images:[ require("../../assets/img/products/kábel2.jpg"),
+          require("../../assets/img/products/kábel3.jpg")
+        ],
         },
         
       ]

@@ -38,6 +38,7 @@
                                     <p v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl}}</p>
                                     <div class="row"  v-if="currentProduct.id == 1">
                                         <div class="col-md-6">
+                                            
                                             <ul class="ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor margin_top15">
                                                 <li><i class="ti ti-check"></i>
                                                     <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_1 }}</div>
@@ -111,8 +112,6 @@
                                  </div>
                               </div>
                            </div>
-                                
-
                            <div class="row" v-for="(pic, key) in currentProduct.pics" :key="key">
                               <div class="col-md-6 col-sm-6">
                                  <div class="ttm_single_image-wrapper text-left padding_top15">
@@ -125,8 +124,6 @@
                                  </div>
                               </div>
                            </div>
-                           
-                        
                         </div>
                         <div class="ttm-horizontal_sep width-100 margin_top30 margin_bottom30"></div>
                         <div class="d-flex justify-content-between" v-if="prevProductId !=0">
@@ -143,17 +140,22 @@
          </div>
       </section>
    </div>
+   
 </template>
 <script>
 import { data } from '@/assets/js/products.js'; 
 export default {
   name: 'ProductInfo',
+  components: {
+   
+  },
   data(){
     return { 
         currentProduct:data.items.find(x=>x.id == this.$route.params.id),
         prevProductId: data.items.find(x=>x.id == this.$route.params.id)?.id -1,
         nextProductId: data.items.find(x=>x.id == this.$route.params.id)?.id +1,
         max:data.items.length-1,
+        
         } 
   }
 }
