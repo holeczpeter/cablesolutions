@@ -1952,6 +1952,8 @@ nav.main-menu .megamenu-content .title{
     z-index: 2;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 50px;
+    
 }
 .slide .slide__content--headings {
     padding: 15px 0;
@@ -2057,6 +2059,8 @@ nav.main-menu .megamenu-content .title{
 
 @media only screen and (max-width: 1200px){ 
 
+
+  
   .lg-hide { display: none ; }
   .banner_slider.banner_slider_wide { 
       max-width: 100%;
@@ -2090,6 +2094,7 @@ nav.main-menu .megamenu-content .title{
 
 }
 @media only screen and (max-width: 1024px){
+    
   .banner_slider .slide {
       height: 460px;
   }
@@ -2104,6 +2109,7 @@ nav.main-menu .megamenu-content .title{
 }
 
 @media only screen and (max-width: 991px){ 
+    
   .md-hide { display: none ; } 
   .slide .slide__content--headings h2 {
       font-size: 34px;
@@ -2140,7 +2146,9 @@ nav.main-menu .megamenu-content .title{
 
 
 @media only screen and (max-width: 600px){
-
+    .slide .slide__content {
+        margin-bottom: 0px;
+      }
     .banner_slider .slide { height: 320px; }
 
     .slide .ttm-btn { font-size: 10.5px; }
@@ -3033,7 +3041,23 @@ section.error-404 .page-content p { font-size: 18px; margin-bottom: 30px; }
     background-position: center;
     z-index: 1;
 }
-
+.about { 
+    background: url(../img/office.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+.product-layer{
+    top:100px;
+}
+.product-flex{
+    display: flex;
+    flex-direction: column;
+}
+.product-section{
+ margin-top:50px;
+}
 /* Style the Image Used to Trigger the Modal */
 #myImg {
     border-radius: 5px;

@@ -6,7 +6,8 @@
             <div class="col-lg-8 m-auto">
                <div class="section-title title-style-center_text">
                   <div class="title-header">
-                     <h2 class="title">{{$t('statistics-page.title-1')}} {{$t('statistics-page.title-2')}} {{$t('statistics-page.title-3')}}.</h2>
+                     <h2 class="title">{{$t('statistics-page.title-1')}} {{$t('statistics-page.title-2')}} {{$t('statistics-page.title-3')}}
+                     </h2>
                   </div>
                </div>
             </div>

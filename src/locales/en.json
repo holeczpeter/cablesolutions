@@ -23,7 +23,7 @@
     "title":"Cable and cabinet assembly",
     "detail":"Cable Solutions has been present on the electronic products market since 2011 as a company assembling cable, wire and electronic control boxes, with Dutch management and production site in Hungary.",
     "since":"since 2011",
-    "subtitle":"We can promise if you give us the chance you never regret it.",
+    "subtitle":"We can promise if you give us the chance you never regret it",
     "checklist":"We offer solutions in several areas",
     "check-1":"assembly and pre-processing of electronic components and products",
     "check-2":"procurement of raw materials",
@@ -68,7 +68,7 @@
     "projects":"products",
     "clients":"satisfied customer",
     "experience":"experience",
-    "projects-value":"Hundreds",
+    "projects-value":"Hundreds of",
     "clients-value":"There are many",
     "experience-value":"More than 10 years of"
   },
@@ -76,7 +76,7 @@
   "products-page":{
     "title":"Products",
     "subtitle":"We Give Top Production From Every Angle",
-    "description":"Fordításra vár: Az általunk gyártott termékek között megtalálhatók a legkülönbözőbb kábelkorbácsok, szalag-, vezérlő-, és spirálkábelek, valamint nagy tapasztalattal rendelkezünk a vezérlő-, és kapcsoló szekrények építésében is.",
+    "description":"All switch-, and paneling boxes are assembled with utmost care. We have been working with  high-quality material manufacturers for years.",
     "more":"View more products",
     "read-more":"Read more"
   },
@@ -94,7 +94,7 @@
     "subtitle":"Get In Touch!",
     "description":"Outsource the production of your cables to us and save labour costs.",
     "head-office":"Head Office",
-    "branch-office":"Head Office",
+    "branch-office":"Production site",
     "address":"Address",
     "call-us":"Call Us",
     "email":"Email",
