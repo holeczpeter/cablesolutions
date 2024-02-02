@@ -112,17 +112,15 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="row" v-for="(pic, key) in currentProduct.pics" :key="key">
-                              <div class="col-md-6 col-sm-6">
-                                 <div class="ttm_single_image-wrapper text-left padding_top15">
-                                    <img class="img-fluid" :src="pic.pic01" alt="single-img-10">
+                           <div class="row" >
+                              <div class="col-md-6 col-sm-6" v-for="(pic, key) in currentProduct.pics" :key="key">
+                              <div class="featured-imagebox featured-imagebox-services style1">
+                                 <div class="featured-thumbnail">
+                                    <img class="img-fluid" :src="pic.pic" alt="image">
                                  </div>
                               </div>
-                              <div class="col-md-6 col-sm-6">
-                                 <div class="ttm_single_image-wrapper text-left padding_top15">
-                                    <img class="img-fluid" :src="pic.pic02" alt="single-img-11">
-                                 </div>
-                              </div>
+                             
+                           </div>
                            </div>
                         </div>
                         <div class="ttm-horizontal_sep width-100 margin_top30 margin_bottom30"></div>

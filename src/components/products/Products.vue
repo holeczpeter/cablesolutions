@@ -40,7 +40,6 @@
                      <div class="featured-thumbnail">
                         <img class="img-fluid" :src="cable.pic" alt="image">
                      </div>
-                     
                   </div>
                </div>
             </div>

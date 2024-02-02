@@ -44,16 +44,25 @@ export const data = {
           pic: require("../../assets/img/products/1.jpg"),
           banner: require("../../assets/img/products/box-banner.jpg"),
           pics:[ {
-            pic01: require("../../assets/img/products/kábel2.jpg"),
-            pic02: require("../../assets/img/products/kábel3.jpg")
+            pic: require("../../assets/img/products/kábel2.jpg")
           },
           {
-            pic01: require("../../assets/img/products/kábel4.jpg"),
-            pic02: require("../../assets/img/products/kábel5.jpg")
+            pic: require("../../assets/img/products/kábel3.jpg")
           },
           {
-            pic01: require("../../assets/img/products/kábel6.jpg"),
-            pic02: require("../../assets/img/products/kábel7.jpg")
+            pic: require("../../assets/img/products/kábel4.jpg")
+           
+          },
+          {
+            
+            pic: require("../../assets/img/products/kábel5.jpg")
+          },
+          {
+            pic: require("../../assets/img/products/kábel6.jpg")
+          },
+          {
+           
+            pic: require("../../assets/img/products/kábel7.jpg")
           },
         ],
         images:[ require("../../assets/img/products/kábel2.jpg"),
@@ -102,16 +111,27 @@ export const data = {
           pic:require("../../assets/img/products/2.jpg"),
           banner: require("../../assets/img/products/box-banner.jpg"),
           pics:[ {
-            pic01: require("../../assets/img/products/doboz2.jpg"),
-            pic02: require("../../assets/img/products/doboz3.jpg")
+            pic: require("../../assets/img/products/doboz2.jpg"),
           },
           {
-            pic01: require("../../assets/img/products/doboz4.jpg"),
-            pic02: require("../../assets/img/products/doboz5.jpg")
+            
+            pic: require("../../assets/img/products/doboz3.jpg")
           },
           {
-            pic01: require("../../assets/img/products/doboz6.jpg"),
-            pic02: require("../../assets/img/products/doboz7.jpg")
+            pic: require("../../assets/img/products/doboz4.jpg"),
+            
+          },
+          {
+           
+            pic: require("../../assets/img/products/doboz5.jpg")
+          },
+          {
+            pic: require("../../assets/img/products/doboz6.jpg"),
+          
+          },
+          {
+         
+            pic: require("../../assets/img/products/doboz7.jpg")
           },
         ],
         images:[ require("../../assets/img/products/kábel2.jpg"),
@@ -160,16 +180,27 @@ export const data = {
           pic:require("../../assets/img/products/2.jpg"),
           banner: require("../../assets/img/products/box-banner.jpg"),
           pics:[ {
-            pic01: require("../../assets/img/products/doboz2.jpg"),
-            pic02: require("../../assets/img/products/doboz3.jpg")
+            pic: require("../../assets/img/products/doboz2.jpg"),
           },
           {
-            pic01: require("../../assets/img/products/doboz4.jpg"),
-            pic02: require("../../assets/img/products/doboz5.jpg")
+            
+            pic: require("../../assets/img/products/doboz3.jpg")
           },
           {
-            pic01: require("../../assets/img/products/doboz6.jpg"),
-            pic02: require("../../assets/img/products/doboz7.jpg")
+            pic: require("../../assets/img/products/doboz4.jpg"),
+            
+          },
+          {
+           
+            pic: require("../../assets/img/products/doboz5.jpg")
+          },
+          {
+            pic: require("../../assets/img/products/doboz6.jpg"),
+          
+          },
+          {
+         
+            pic: require("../../assets/img/products/doboz7.jpg")
           },
         ],
         images:[ require("../../assets/img/products/kábel2.jpg"),
@@ -218,16 +249,27 @@ export const data = {
           pic:require("../../assets/img/products/2.jpg"),
           banner: require("../../assets/img/products/box-banner.jpg"),
           pics:[ {
-            pic01: require("../../assets/img/products/doboz2.jpg"),
-            pic02: require("../../assets/img/products/doboz3.jpg")
+            pic: require("../../assets/img/products/doboz2.jpg"),
           },
           {
-            pic01: require("../../assets/img/products/doboz4.jpg"),
-            pic02: require("../../assets/img/products/doboz5.jpg")
+            
+            pic: require("../../assets/img/products/doboz3.jpg")
           },
           {
-            pic01: require("../../assets/img/products/doboz6.jpg"),
-            pic02: require("../../assets/img/products/doboz7.jpg")
+            pic: require("../../assets/img/products/doboz4.jpg"),
+            
+          },
+          {
+           
+            pic: require("../../assets/img/products/doboz5.jpg")
+          },
+          {
+            pic: require("../../assets/img/products/doboz6.jpg"),
+          
+          },
+          {
+         
+            pic: require("../../assets/img/products/doboz7.jpg")
           },
         ],
         images:[ require("../../assets/img/products/kábel2.jpg"),
