@@ -9,7 +9,7 @@
                         <div class="ttm-col-wrapper-bg-layer-inner"></div>
                      </div>
                      <div class="layer-content">
-                        <div class="section-title style2">
+                        <div class="section-title style2 product-flex">
                            <div class="title-header">
                               <h3>{{ $t('products-page.title')}} </h3>
                               <h2 class="title">{{ $t('products-page.subtitle')}}</h2>

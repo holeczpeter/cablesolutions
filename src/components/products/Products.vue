@@ -67,6 +67,48 @@
                </div>
             </div>
             <div>
+            <div class="ttm-horizontal_sep width-100 margin_top35 margin_bottom35"></div>
+            <div class="row">
+               <div class="col-md-8">
+                  <h3 v-if="this.$i18n.locale == 'en'">{{product3.title_en}}</h3>
+                  <h3 v-if="this.$i18n.locale == 'hu'">{{product3.title_hu}}</h3>
+                  <h3 v-if="this.$i18n.locale == 'nl'">{{product3.title_nl}}</h3>
+                  <p v-if="this.$i18n.locale == 'hu'">{{product3.shortdescription_hu}}</p>
+                  <p v-if="this.$i18n.locale == 'en'">{{product3.shortdescription_en}}</p>
+                  <p v-if="this.$i18n.locale == 'nl'">{{product3.shortdescription_nl}}</p>
+                  <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-dark margin_top15" :href="'product/' + product3.id">{{ $t('products-page.read-more')}}</a>
+               </div>
+               <div class="col-md-4">
+                  <div class="featured-imagebox featured-imagebox-services style1">
+                     <div class="featured-thumbnail">
+                        <img class="img-fluid" :src="product3.pic" alt="image">
+                     </div>
+                     
+                  </div>
+               </div>
+            </div>
+             <div class="ttm-horizontal_sep width-100 margin_top35 margin_bottom35"></div>
+            <div class="row">
+               <div class="col-md-4">
+                   <div class="featured-imagebox featured-imagebox-services style1">
+                     <div class="featured-thumbnail">
+                        <img class="img-fluid" :src="product4.pic" alt="image">
+                     </div>
+                    
+                  </div>
+               </div>
+               <div class="col-md-8">
+                  <div class="res-767-margin_top30">
+                     <h3 v-if="this.$i18n.locale == 'en'">{{product4.title_en}}</h3>
+                     <h3 v-if="this.$i18n.locale == 'hu'">{{product4.title_hu}}</h3>
+                     <h3 v-if="this.$i18n.locale == 'nl'">{{product4.title_nl}}</h3>
+                     <p v-if="this.$i18n.locale == 'hu'">{{product4.shortdescription_hu}}</p>
+                     <p v-if="this.$i18n.locale == 'en'">{{product4.shortdescription_en}}</p>
+                     <p v-if="this.$i18n.locale == 'nl'">{{product4.shortdescription_nl}}</p>
+                     <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-dark margin_top15" :href="'product/' + product4.id">{{ $t('products-page.read-more')}}</a>
+                  </div>
+               </div>
+            </div>
             </div>
          </div>
       </div>
@@ -82,7 +124,8 @@
           
            cable: data.items[0],
            box: data.items[1],
-           
+            product3: data.items[2],
+             product4: data.items[3],
            } 
      }
    }
