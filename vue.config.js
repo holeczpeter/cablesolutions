@@ -12,7 +12,8 @@ module.exports = defineConfig({
       enableLegacy: true,
       runtimeOnly: false,
       compositionOnly: true,
-      fullInstall: true
+      fullInstall: true,
+      reloadOnLanguageChange: false,
     }
   }
 })
