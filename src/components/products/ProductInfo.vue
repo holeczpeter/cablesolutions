@@ -108,6 +108,54 @@
                                                
                                             </ul>
                                         </div>
+                                        
+                                    </div>
+                                    <div class="row"  v-if="currentProduct.id == 3">
+                                        <div class="col-md-6">
+                                            
+                                            <ul class="ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor margin_top15">
+                                                <li><i class="ti ti-check"></i>
+                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_1 }}</div>
+                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_1 }}</div>
+                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_1 }}</div>
+                                                </li> <br>
+                                                <li><i class="ti ti-check"></i>
+                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_2 }}</div>
+                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_2 }}</div>
+                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_2 }}</div>
+                                                </li> <br>
+                                                <li><i class="ti ti-check"></i>
+                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_3 }}</div>
+                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_3 }}</div>
+                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_3 }}</div>
+                                                </li><br>
+                                                 <li><i class="ti ti-check"></i>
+                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_4 }}</div>
+                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_4 }}</div>
+                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_4 }}</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul class="ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor margin_top15">
+                                               
+                                                <li><i class="ti ti-check"></i>
+                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_5 }}</div>  
+                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_5 }}</div>
+                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_5 }}</div>
+                                                </li> <br>
+                                                <li><i class="ti ti-check"></i>
+                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_6 }}</div>
+                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_6 }}</div>
+                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_6 }}</div>
+                                                </li><br>
+                                                 <li><i class="ti ti-check"></i>
+                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_7 }}</div> 
+                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_7 }}</div>
+                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_7 }}</div>
+                                                </li> 
+                                            </ul>
+                                       </div>
                                     </div>
                                  </div>
                               </div>

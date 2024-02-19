@@ -6,9 +6,6 @@ export const data = {
           title_en: "Cable assemby",
           title_hu: "Kábelszerelés",
           title_nl: "Kabel assemblage",
-          description_en: "Szövegre vár Product 1: Lorem ipsum dolor sit amet.",
-          description_hu: "Szövegre vár Termék 1: Lorem ipsum dolor sit amet.",
-          description_nl: "Szövegre vár Produkt 1: Lorem ipsum dolor sit amet.",
           shortdescription_en: "Outsource the production of your cables to us and save labour costs.",
           shortdescription_hu: "Helyezze ki hozzánk szerelt kábelei legyártását és spóroljon a munkaköltségen.",
           shortdescription_nl: "Besteed de productie van uw kabels aan ons uit en bespaar op airbeidskosten.",
@@ -36,37 +33,26 @@ export const data = {
           solution_en_6:"production of small or large quantity",
           solution_hu_6:"kis és nagy darabszámú gyártás",
           solution_nl_6:"productie van kleine en grote hoeveelheden",
-
-          project:"Project 1",
-          category:"Category 1",
-          date:"Date 1",
-          link:'product-detail',
-          pic: require("../../assets/img/products/1.jpg"),
-          banner: require("../../assets/img/products/box-banner.jpg"),
+          pic: require("../../assets/img/products/cable01.jpg"),
+          banner: require("../../assets/img/products/cable-banner.jpg"),
           pics:[ {
-            pic: require("../../assets/img/products/kábel2.jpg")
+            pic: require("../../assets/img/products/cable02.jpg")
           },
           {
-            pic: require("../../assets/img/products/kábel3.jpg")
+            pic: require("../../assets/img/products/cable03.jpg")
           },
           {
-            pic: require("../../assets/img/products/kábel4.jpg")
-           
+            pic: require("../../assets/img/products/cable04.jpg")
           },
           {
-            
-            pic: require("../../assets/img/products/kábel5.jpg")
+            pic: require("../../assets/img/products/cable05.jpg")
           },
           {
-            pic: require("../../assets/img/products/kábel6.jpg")
+            pic: require("../../assets/img/products/cable06.jpg")
           },
           {
-           
-            pic: require("../../assets/img/products/kábel7.jpg")
+            pic: require("../../assets/img/products/cable07.jpg")
           },
-        ],
-        images:[ require("../../assets/img/products/kábel2.jpg"),
-          require("../../assets/img/products/kábel3.jpg")
         ],
         },
         { 
@@ -74,9 +60,6 @@ export const data = {
           title_en: "Cabinets",
           title_hu: "Elektronikai dobozok",
           title_nl: "Panelenbouw",
-          description_en: "Szövegre vár Product 2: Lorem ipsum dolor sit amet.",
-          description_hu: "Szövegre vár Termék 2: Lorem ipsum dolor sit amet.",
-          description_nl: "Szövegre vár Produkt 2: Lorem ipsum dolor sit amet.",
           shortdescription_nl: "Alle schakel- en verdeelapparatuur wordt met de grootste zorg gemonteerd. Wij werken al jaren samen met hoogwaardige grondstoffenfabrikanten",
           shortdescription_hu: "Minden kapcsoló- és elosztóberendezést a legnagyobb gondossággal állítunk össze. Évek óta dolgozunk kiváló minőségű alapanyaggyártókkal.",
           shortdescription_en: "All switch-, and paneling boxes are assembled with utmost care. We have been working with  high-quality material manufacturers for years",
@@ -104,176 +87,121 @@ export const data = {
           solution_en_6:"",
           solution_hu_6:"",
           solution_nl_6:"",
-          project:"Project 2",
-          category:"Category 2",
-          date:"Date 2",
-          link:'product-detail',
-          pic:require("../../assets/img/products/2.jpg"),
+          pic:require("../../assets/img/products/box01.jpg"),
           banner: require("../../assets/img/products/box-banner.jpg"),
           pics:[ {
-            pic: require("../../assets/img/products/doboz2.jpg"),
+            pic: require("../../assets/img/products/box02.jpg"),
           },
           {
-            
-            pic: require("../../assets/img/products/doboz3.jpg")
+            pic: require("../../assets/img/products/box03.jpg")
           },
           {
-            pic: require("../../assets/img/products/doboz4.jpg"),
-            
+            pic: require("../../assets/img/products/box04.jpg"),
           },
           {
-           
-            pic: require("../../assets/img/products/doboz5.jpg")
+            pic: require("../../assets/img/products/box05.jpg")
           },
           {
-            pic: require("../../assets/img/products/doboz6.jpg"),
-          
+            pic: require("../../assets/img/products/box06.jpg"),
           },
           {
-         
-            pic: require("../../assets/img/products/doboz7.jpg")
+            pic: require("../../assets/img/products/box07.jpg")
           },
         ],
-        images:[ require("../../assets/img/products/kábel2.jpg"),
-          require("../../assets/img/products/kábel3.jpg")
-        ],
+       
         },
         { 
           id:3,
-          title_en: "Product 3",
-          title_hu: "Termék 3",
-          title_nl: "Product 3",
-          description_en: "Szövegre vár Product 2: Lorem ipsum dolor sit amet.",
-          description_hu: "Szövegre vár Termék 2: Lorem ipsum dolor sit amet.",
-          description_nl: "Szövegre vár Produkt 2: Lorem ipsum dolor sit amet.",
-          shortdescription_nl: "Alle schakel- en verdeelapparatuur wordt met de grootste zorg gemonteerd. Wij werken al jaren samen met hoogwaardige grondstoffenfabrikanten",
-          shortdescription_hu: "Minden kapcsoló- és elosztóberendezést a legnagyobb gondossággal állítunk össze. Évek óta dolgozunk kiváló minőségű alapanyaggyártókkal.",
-          shortdescription_en: "All switch-, and paneling boxes are assembled with utmost care. We have been working with  high-quality material manufacturers for years",
-          subtitle_en: "Electronic cabinets",
-          subtitle_hu: "Elektronikai dobozok",
-          subtitle_nl: "Panelen",
-          solution_en:"We undertake",
-          solution_hu:"Vállaljuk",
-          solution_nl:"Wij ondernemen",
-          solution_en_1:"assembly of various control cabinets based on your requirements and technical drawings",
-          solution_hu_1:"különféle vezérlő dobozok összeszerelését az Ön igénye, műszaki rajzai alapján",
-          solution_nl_1:"montage van diverse besturingkasten op basis van uw wensen en technische tekeningen",
-          solution_en_2:"Production of steel and aluminium base plates",
-          solution_hu_2:"acél és alumínium alaplapok gyártása",
-          solution_nl_2:"productie van stalen en aluminium voetplaten",
-          solution_en_3:"procurement of materials",
-          solution_hu_3:"teljes körű anyagbeszerzés",
-          solution_nl_3:"volledige inkoop van materialen",
-          solution_en_4:"testing",
-          solution_hu_4:"tesztelés",
-          solution_nl_4:"testen",
-          solution_en_5:"",
-          solution_hu_5:"",
-          solution_nl_5:"",
-          solution_en_6:"",
-          solution_hu_6:"",
-          solution_nl_6:"",
-          project:"Project 2",
-          category:"Category 2",
-          date:"Date 2",
+          title_en: "Wiring harnesses",
+          title_hu: "Kábelkorbácsok",
+          title_nl: "Kabelbomen",
+          shortdescription_nl: "door steeds complexere machines en voertuigen worden ook kabelzwepen steeds uitgebreider, onze klanten maken op veel gebieden gebruik van de producten wij assembleren",
+          shortdescription_hu: "Az egyre bonyolultabbá vált gépek és járművek miatt a kábelkorbácsok is egyre elterjedtebbek, megrendelőink is számos területen használják fel az általunk összeszerelt termékeket",
+          shortdescription_en: "due to increasingly complex machines and vehicles, cable whips are also becoming more and more extensive, and the product we assemble are used by our customers in many areas",
+          subtitle_en: "Wiring harnesses",
+          subtitle_hu: "Kábelkorbácsok",
+          subtitle_nl: "Kabelbomen",
+          solution_en:"The cable whips are assembled based on the prototype created by the customer according tot he following steps",
+          solution_hu:"A kábelkorbácsok összeszerelése  a megrendelő által készített prototípus alapján, az alábbi lépések szerint történik",
+          solution_nl:"De kabelzwepen  worden geassembleerd op basis van het door de klant gemaakte prototype, volgens de onderste stappen",
+          solution_en_1:"choice of material",
+          solution_hu_1:"anyagválasztás",
+          solution_nl_1:"Materiaalselectie",
+          solution_en_2:"preparation",
+          solution_hu_2:"előkészítés",
+          solution_nl_2:"voorbereid",
+          solution_en_3:"cutting and bundling",
+          solution_hu_3:"vágás és kötegelés",
+          solution_nl_3:"knippen en bundelen",
+          solution_en_4:"crimping and soldering",
+          solution_hu_4:"krimpelés és forrasztás",
+          solution_nl_4:"krimpen en solderen",
+          solution_en_5:"labeling",
+          solution_hu_5:"címkézés",
+          solution_nl_5:"labeling",
+          solution_en_6:"controlling/testen",
+          solution_hu_6:"ellenőrzés",
+          solution_nl_6:"testen",
+          solution_en_7:"packaging en delivery",
+          solution_hu_7:"csomagolás és szállítás",
+          solution_nl_7:"verpakken en versturen",
           link:'product-detail',
-          pic:require("../../assets/img/products/2.jpg"),
-          banner: require("../../assets/img/products/box-banner.jpg"),
+          pic:require("../../assets/img/products/wiring_harnesses01.jpg"),
+          banner: require("../../assets/img/products/wiring_harnesses01.jpg"),
           pics:[ {
-            pic: require("../../assets/img/products/doboz2.jpg"),
+            pic: require("../../assets/img/products/wiring_harnesses01.jpg"),
           },
           {
-            
-            pic: require("../../assets/img/products/doboz3.jpg")
+            pic: require("../../assets/img/products/wiring_harnesses02.jpg")
           },
           {
-            pic: require("../../assets/img/products/doboz4.jpg"),
-            
+            pic: require("../../assets/img/products/wiring_harnesses03.jpg"),
           },
-          {
-           
-            pic: require("../../assets/img/products/doboz5.jpg")
-          },
-          {
-            pic: require("../../assets/img/products/doboz6.jpg"),
-          
-          },
-          {
-         
-            pic: require("../../assets/img/products/doboz7.jpg")
-          },
-        ],
-        images:[ require("../../assets/img/products/kábel2.jpg"),
-          require("../../assets/img/products/kábel3.jpg")
         ],
         },
         { 
           id:4,
-          title_en: "Product 4",
-          title_hu: "Termék 4",
-          title_nl: "Product 4",
-          description_en: "Szövegre vár Product 2: Lorem ipsum dolor sit amet.",
-          description_hu: "Szövegre vár Termék 2: Lorem ipsum dolor sit amet.",
-          description_nl: "Szövegre vár Produkt 2: Lorem ipsum dolor sit amet.",
-          shortdescription_nl: "Alle schakel- en verdeelapparatuur wordt met de grootste zorg gemonteerd. Wij werken al jaren samen met hoogwaardige grondstoffenfabrikanten",
-          shortdescription_hu: "Minden kapcsoló- és elosztóberendezést a legnagyobb gondossággal állítunk össze. Évek óta dolgozunk kiváló minőségű alapanyaggyártókkal.",
-          shortdescription_en: "All switch-, and paneling boxes are assembled with utmost care. We have been working with  high-quality material manufacturers for years",
-          subtitle_en: "Electronic cabinets",
-          subtitle_hu: "Elektronikai dobozok",
-          subtitle_nl: "Panelen",
-          solution_en:"We undertake",
-          solution_hu:"Vállaljuk",
-          solution_nl:"Wij ondernemen",
-          solution_en_1:"assembly of various control cabinets based on your requirements and technical drawings",
-          solution_hu_1:"különféle vezérlő dobozok összeszerelését az Ön igénye, műszaki rajzai alapján",
-          solution_nl_1:"montage van diverse besturingkasten op basis van uw wensen en technische tekeningen",
-          solution_en_2:"Production of steel and aluminium base plates",
-          solution_hu_2:"acél és alumínium alaplapok gyártása",
-          solution_nl_2:"productie van stalen en aluminium voetplaten",
-          solution_en_3:"procurement of materials",
-          solution_hu_3:"teljes körű anyagbeszerzés",
-          solution_nl_3:"volledige inkoop van materialen",
-          solution_en_4:"testing",
-          solution_hu_4:"tesztelés",
-          solution_nl_4:"testen",
+          title_en: "Mechanical assembly",
+          title_hu: "Mechanikai összeszerelés",
+          title_nl: "Mechanische assemblage",
+          shortdescription_nl: "Wij verzorgen de assemblage van verschillende onderdelen en subassemblages in kleine en middelgrote batches op basis van de individuele behoeften/plannen van de klant. Desnoods met de aankoop van grondstoffen",
+          shortdescription_hu: "Vállaljuk egyedi igények/megrendelő által biztosított tervek alapján különféle alkatrészek és részegységek összeszerelését kis és közepes tételben. Igény esetén alapanyag beszerzéssel",
+          shortdescription_en: "We undertake the assembly of various components and subassemblies in small and medium batches, based on individual needs/plans provided by the customer. If necessary, with the purchase of materials",
+          subtitle_en: "Mechanical assembly",
+          subtitle_hu: "Mechanikai összeszerelés",
+          subtitle_nl: "Mechanische assemblage",
+          solution_en:"",
+          solution_hu:"",
+          solution_nl:"",
+          solution_en_1:"",
+          solution_hu_1:"",
+          solution_nl_1:"",
+          solution_en_2:"",
+          solution_hu_2:"",
+          solution_nl_2:"",
+          solution_en_3:"",
+          solution_hu_3:"",
+          solution_nl_3:"",
+          solution_en_4:"",
+          solution_hu_4:"",
+          solution_nl_4:"",
           solution_en_5:"",
           solution_hu_5:"",
           solution_nl_5:"",
           solution_en_6:"",
           solution_hu_6:"",
           solution_nl_6:"",
-          project:"Project 2",
-          category:"Category 2",
-          date:"Date 2",
-          link:'product-detail',
-          pic:require("../../assets/img/products/2.jpg"),
-          banner: require("../../assets/img/products/box-banner.jpg"),
+          pic:require("../../assets/img/products/mechanical01.jpg"),
+          banner: require("../../assets/img/products/mechanical-banner.jpg"),
           pics:[ {
-            pic: require("../../assets/img/products/doboz2.jpg"),
+            pic: require("../../assets/img/products/mechanical02.jpg"),
           },
           {
-            
-            pic: require("../../assets/img/products/doboz3.jpg")
+            pic: require("../../assets/img/products/mechanical03.jpg")
           },
           {
-            pic: require("../../assets/img/products/doboz4.jpg"),
-            
-          },
-          {
-           
-            pic: require("../../assets/img/products/doboz5.jpg")
-          },
-          {
-            pic: require("../../assets/img/products/doboz6.jpg"),
-          
-          },
-          {
-         
-            pic: require("../../assets/img/products/doboz7.jpg")
-          },
-        ],
-        images:[ require("../../assets/img/products/kábel2.jpg"),
-          require("../../assets/img/products/kábel3.jpg")
+            pic: require("../../assets/img/products/mechanical04.jpg"),
+          }
         ],
         },
       ]
