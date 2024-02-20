@@ -6,7 +6,7 @@ module.exports = defineConfig({
   publicPath: process.env.NODE_ENV === "production" ? "/cablesolutions/" : "/",
   pluginOptions: {
     i18n: {
-      locale: 'hu',
+      locale: navigator.language.split('-')[0],
       fallbackLocale: 'hu',
       localeDir: 'locales',
       enableLegacy: true,

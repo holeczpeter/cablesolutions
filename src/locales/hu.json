@@ -15,7 +15,33 @@
     "site-links":"Site links",
     "request-form":"Online kapcsolatfelvétel",
     "get-in-touch":"Vegye fel velünk a kapcsolatot",
-    "title":"Kábelszerelvények és elektronikai dobozok gyártása"
+    "title":"Kábelszerelvények és elektronikai dobozok gyártása",
+    "support":"Support",
+    "privacy":"Adatvédelmi tájékoztató tájékoztató",
+    "impressum":"Impresszum",
+    "cookie":"Cookie  tájékoztató"
+  },
+  "impressum-page":{
+    "title":"Impresszum",
+    "business":{
+      "data":"Vállalkozás adatai",
+      "name":"Cégnév",
+      "address":"Cím",
+      "post-address":"Postai cím",
+      "tax":"Adószám",
+      "number":"Cégjegyzékszám",
+      "phone":"Telefonszám",
+      "bank":"Bankszámlaszám",
+      "email":"E-mail"
+    },
+    "domain":{
+      "data":"Tárhelyszolgáltató adatai",
+      "name":"Cégnév",
+      "address":"Cím"
+    },
+    "bank":{
+      "data":"Bankszámlaszámok"
+    }
   },
   "about-page":{
     "section-title":"Ismerjen meg minket",

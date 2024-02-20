@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Product from '../components/products/Product.vue'
 import AboutTwo from '../components/about/About.vue'
+import ImpressumPage from '../components/support/ImpressumPage.vue'
 const routes = [
   
   {
@@ -25,7 +26,6 @@ const routes = [
   {
     path: "/product/:id",
     name: Product,
-    
     meta: {
       title: "Product",
       basePath: process.env.VUE_APP_PUBLIC_PATH || ''
@@ -42,6 +42,16 @@ const routes = [
       basePath: process.env.VUE_APP_PUBLIC_PATH || ''
     },
     component: () => import("../components/about/AboutTwo.vue"),
+  },
+  {
+    path: "/impressum",
+    name: ImpressumPage,
+    meta: {
+      title: "Impresszum",
+      basePath: process.env.VUE_APP_PUBLIC_PATH || ''
+    },
+    component: () => import("../components/support/ImpressumPage.vue"),
+    props: true 
   },
 ]
 

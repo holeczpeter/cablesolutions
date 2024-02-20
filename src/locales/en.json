@@ -6,7 +6,7 @@
   "contact": "Contact Us",
   "affordable-quality":"Affordable quality",
   "welcome":"Welcome",
-  "slider-about":"Assembly of cable whips, ribbon, control and spiral cables, control and switch cabinets/boxes",
+  "slider-about":"Assembly of cable harnesses, ribbon, control and spiral cables, control and switch cabinets/boxes",
   "slider-about-2":"",
   "more-detail":"More details",
   "quote":"Your problem our challenge",
@@ -16,7 +16,33 @@
     "site-links":"Site links",
     "request-form":"Request Online Form",
     "get-in-touch":"Get in touch with us",
-    "title":"Cable and cabinet assembly"
+    "title":"Cable and cabinet assembly",
+    "support":"Support",
+    "privacy":"Privacy Statements",
+    "impressum":"Impressum",
+    "cookie":"Cookie"
+  },
+  "impressum-page":{
+    "title":"Impresszum",
+    "business":{
+      "data":"Vállalkozás adatai",
+      "name":"Cégnév",
+      "address":"Cím",
+      "post-address":"Postai cím",
+      "tax":"Adószám",
+      "number":"Cégjegyzékszám",
+      "phone":"Telefonszám",
+      "bank":"Bankszámlaszám",
+      "email":"E-mail"
+    },
+    "domain":{
+      "data":"Tárhelyszolgáltató adatai",
+      "name":"Cégnév",
+      "address":"Cím"
+    },
+    "bank":{
+      "data":"Bankszámlaszámok"
+    }
   },
   "about-page":{
     "section-title":"Wo we are",

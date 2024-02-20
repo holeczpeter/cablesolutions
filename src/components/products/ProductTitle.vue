@@ -1,6 +1,6 @@
  <template>
     <div class="ttm-page-title-row ttm-bg ttm-bgimage-yes ttm-bgcolor-darkgrey clearfix " 
-    :class="id === 1 ? 'product1': 'product2'">
+    :class="id === 1 ? 'product1' : (id === 2 ? 'product2' : (id === 3 ? 'product3' : 'product4'))">
       <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
       <div class="container">
          <div class="row align-items-center">

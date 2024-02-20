@@ -31,34 +31,41 @@
       <div class="second-footer">
          <div class="container">
             <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 widget-area">
-                            <div class="widget widget_text margin_right10 clearfix">
-                                <h3 class="widget-title">{{$t('footer.get-in-touch')}}</h3>
-                                <div class="textwidget widget-text">
-                                    <div class="call_detail">
-                                        <h3 class="fs-24">{{contact.phone}}</h3>
-                                        <div class="padding_top10 padding_bottom10">
-                                            
-                                        </div>
-                                        <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-white w-100 text-center" 
+               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 widget-area">
+                  <div class="widget widget_text margin_right10 clearfix">
+                     <h3 class="widget-title">{{$t('footer.get-in-touch')}}</h3>
+                        <div class="textwidget widget-text">
+                           <div class="call_detail">
+                              <h3 class="fs-24">{{contact.phone}}</h3>
+                              <div class="padding_top10 padding_bottom10"></div>
+                                 <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-white w-100 text-center" 
                                         :href="'/'"  v-scroll-to="'#contact'">
                                         {{$t('footer.request-form')}}</a>
-                                    </div>
-                                </div>
-                            </div>
+                              </div>
+                           </div>
                         </div>
-               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 widget-area">
+                  </div>
+               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 widget-area">
                   <div class="widget widget_nav_menu clearfix">
                      <h3 class="widget-title">{{$t('footer.site-links')}}</h3>
                      <ul id="menu-footer-quick-links" class="menu">
                         <li v-for="(item, index) in menuitems" :key="index">
                            <a :href="'/'" v-scroll-to="item.routerlink">{{$t(item.title)}}</a>
                         </li>
-                        
                      </ul>
                   </div>
                </div>
-               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 widget-area">
+               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 widget-area">
+                  <div class="widget widget_nav_menu clearfix">
+                     <h3 class="widget-title">{{$t('footer.support')}}</h3>
+                     <ul id="menu-footer-quick-links" class="menu">
+                        <li><a :href="'/impressum'">{{$t('footer.privacy')}}</a></li>
+                        <li><a :href="'/impressum'">{{$t('footer.impressum')}}</a></li>
+                        <li><a :href="'/impressum'">{{$t('footer.cookie')}}</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 widget-area">
                   <div class="widget widget-latest-tweets clearfix">
                      <h3 class="widget-title">{{$t('contact')}}</h3>
                      <ul class="widget_contact_wrapper">

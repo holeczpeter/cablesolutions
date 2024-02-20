@@ -3041,6 +3041,20 @@ section.error-404 .page-content p { font-size: 18px; margin-bottom: 30px; }
     background-position: center;
     z-index: 1;
 }
+.product3 { 
+    background: url(../img/products/wiring_harnesses-banner.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+.product4 { 
+    background: url(../img/products/mechanical-banner.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
 .about { 
     background: url(../img/office.jpg);
     width: 100%;
@@ -3058,6 +3072,9 @@ section.error-404 .page-content p { font-size: 18px; margin-bottom: 30px; }
 .product-section{
  margin-top:50px;
 }
+.ul-support {
+    list-style-type: none;
+  }
 /* Style the Image Used to Trigger the Modal */
 #myImg {
     border-radius: 5px;

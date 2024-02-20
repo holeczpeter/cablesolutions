@@ -15,7 +15,33 @@
     "site-links":"Site links",
     "request-form":"Online formulier aanvragen",
     "get-in-touch":"Neem contact op met ons",
-    "title":"Kabelassemblage en panelenbouw"
+    "title":"Kabelassemblage en panelenbouw",
+    "support":"Support",
+    "privacy":"Privacyverklaringen",
+    "impressum":"Impressum",
+    "cookie":"Cookie"
+  },
+  "impressum-page":{
+    "title":"Impresszum",
+    "business":{
+      "data":"Vállalkozás adatai",
+      "name":"Cégnév",
+      "address":"Cím",
+      "post-address":"Postai cím",
+      "tax":"Adószám",
+      "number":"Cégjegyzékszám",
+      "phone":"Telefonszám",
+      "bank":"Bankszámlaszám",
+      "email":"E-mail"
+    },
+    "domain":{
+      "data":"Tárhelyszolgáltató adatai",
+      "name":"Cégnév",
+      "address":"Cím"
+    },
+    "bank":{
+      "data":"Bankszámlaszámok"
+    }
   },
   "about-page":{
     "section-title":"Leer ons kennen",
