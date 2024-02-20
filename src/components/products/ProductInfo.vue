@@ -161,13 +161,14 @@
                               </div>
                            </div>
                            <div class="row" >
-                              <div class="col-md-6 col-sm-6" v-for="(pic, key) in currentProduct.pics" :key="key">
-                              <div class="featured-imagebox featured-imagebox-services style1">
+                           <div class="masonry-container" >
+                              <div class="featured-imagebox featured-imagebox-services style1" v-for="(pic, key) in currentProduct.pics" :key="key">
+                            
                                  <div class="featured-thumbnail">
                                     <img class="img-fluid" :src="pic.pic" alt="image">
                                  </div>
-                              </div>
                              
+                               </div>
                            </div>
                            </div>
                         </div>
@@ -201,7 +202,7 @@ export default {
         prevProductId: data.items.find(x=>x.id == this.$route.params.id)?.id -1,
         nextProductId: data.items.find(x=>x.id == this.$route.params.id)?.id +1,
         max:data.items.length-1,
-        
+        count: data.items.find(x=>x.id == this.$route.params.id)?.pics.length
         } 
   }
 }

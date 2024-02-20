@@ -11,6 +11,7 @@ import "./assets/css/responsive.css";
 import "./assets/css/shortcodes.css";
 import "./assets/css/slick.css";
 import "./assets/css/themify-icons.css";
+import "./assets/css/masonry.css";
 import i18n from './i18n'
 import hu from './locales/hu.json'
 import en from './locales/en.json'

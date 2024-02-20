@@ -1309,7 +1309,7 @@ i.fa-play{ padding-left: 5px; }
     -ms-transform: scale(1.09);
     transform: scale(1.09);
 }
-.featured-imagebox { margin: 15px 0; }
+.featured-imagebox { margin: 0 0px 15px 0; }
 .featured-imagebox .featured-content .featured-title h3 {
     position: relative;
     overflow: hidden;

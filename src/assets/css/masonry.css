@@ -1,0 +1,17 @@
+.masonry-container {
+    column-count: 2; /* A blokkok számát itt állíthatod be */
+    column-gap: 15px; /* Oszlopok közötti tér */
+    margin: 15px;
+}
+
+.masonry-item {
+    break-inside: avoid; /* Elkerüli, hogy egy blokk feloszoljon két oszlopra */
+    margin-top:15px;
+}
+@media only screen and (max-width: 700px){
+    .masonry-container {
+        column-count: 1; /* A blokkok számát itt állíthatod be */
+        column-gap: 15px; /* Oszlopok közötti tér */
+        margin: 15px;
+    }
+  }
