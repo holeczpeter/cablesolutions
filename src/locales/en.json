@@ -44,6 +44,28 @@
       "data":"Bankszámlaszámok"
     }
   },
+  "privacy-page":{
+    "title":"Adatkezelési tájékoztató",
+    "business":{
+      "data":"Vállalkozás adatai",
+      "name":"Cégnév",
+      "address":"Cím",
+      "post-address":"Postai cím",
+      "tax":"Adószám",
+      "number":"Cégjegyzékszám",
+      "phone":"Telefonszám",
+      "bank":"Bankszámlaszám",
+      "email":"E-mail"
+    },
+    "domain":{
+      "data":"Tárhelyszolgáltató adatai",
+      "name":"Cégnév",
+      "address":"Cím"
+    },
+    "bank":{
+      "data":"Bankszámlaszámok"
+    }
+  },
   "about-page":{
     "section-title":"Wo we are",
     "title":"Cable and cabinet assembly",

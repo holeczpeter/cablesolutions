@@ -2544,7 +2544,7 @@ ul.footer-nav-menu li:last-child:after{
     Page-Title-Row
 ------------------------*/
 .ttm-page-title-row { 
-    background: url(https://via.placeholder.com/1920x324?text=1920x324+pagetitle-bg.jpg);
+    
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -3060,6 +3060,13 @@ section.error-404 .page-content p { font-size: 18px; margin-bottom: 30px; }
     width: 100%;
     background-size: cover;
     background-position: center;
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+}
+.impressum { 
+    background:#9f0000;
+    width: 100%;
     z-index: 1;
 }
 .product-layer{

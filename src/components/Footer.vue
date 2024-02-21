@@ -39,7 +39,7 @@
                               <h3 class="fs-24">{{contact.phone}}</h3>
                               <div class="padding_top10 padding_bottom10"></div>
                                  <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-white w-100 text-center" 
-                                        :href="'/'"  v-scroll-to="'#contact'">
+                                        :href="`${$route.meta.basePath || ''}/` + '#contact'"  >
                                         {{$t('footer.request-form')}}</a>
                               </div>
                            </div>
@@ -50,7 +50,7 @@
                      <h3 class="widget-title">{{$t('footer.site-links')}}</h3>
                      <ul id="menu-footer-quick-links" class="menu">
                         <li v-for="(item, index) in menuitems" :key="index">
-                           <a :href="'/'" v-scroll-to="item.routerlink">{{$t(item.title)}}</a>
+                           <a :href="`${$route.meta.basePath || ''}/` + item.routerlink">{{$t(item.title)}}</a>
                         </li>
                      </ul>
                   </div>
@@ -59,9 +59,8 @@
                   <div class="widget widget_nav_menu clearfix">
                      <h3 class="widget-title">{{$t('footer.support')}}</h3>
                      <ul id="menu-footer-quick-links" class="menu">
-                        <li><a :href="'/impressum'">{{$t('footer.privacy')}}</a></li>
+                        <li><a :href="'/privacy'">{{$t('footer.privacy')}}</a></li>
                         <li><a :href="'/impressum'">{{$t('footer.impressum')}}</a></li>
-                        <li><a :href="'/impressum'">{{$t('footer.cookie')}}</a></li>
                      </ul>
                   </div>
                </div>

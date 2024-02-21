@@ -43,7 +43,7 @@
 import { business } from '@/assets/js/business.js'; 
 import { domain } from '@/assets/js/domain.js'; 
 export default {
-  name: 'ProductInfo',
+  name: 'Impressum',
   components: {
    
   },

@@ -6,9 +6,9 @@
 
 
 <script>
-import Header from '../Header.vue'
-import ImpressumTitle from './ImpressumTitle.vue'
-import Impressum from './Impressum.vue'
+import Header from '../components/Header.vue'
+import ImpressumTitle from '../components/impressum/ImpressumTitle.vue'
+import Impressum from '../components/impressum/Impressum.vue'
 
 export default {
   name: 'ImpressumPage',

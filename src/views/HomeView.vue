@@ -17,7 +17,7 @@ import Contact from '../components/contact/Contact.vue'
 import Statistics from '../components/statistics/Statistics.vue'
 import ScrollToTop from '../components/ScrollToTop.vue'
 export default {
-  name: 'Home',
+  name: 'HomeView',
   components: {
     Header,
     Slider,

@@ -1,56 +1,67 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
-import Product from '../components/products/Product.vue'
-import AboutTwo from '../components/about/About.vue'
-import ImpressumPage from '../components/support/ImpressumPage.vue'
+import HomeView from '../views/HomeView.vue'
+import ProductView from '../views/ProductView.vue'
+import AboutView from '../views/AboutView.vue'
+import ImpressumView from '../views/ImpressumView.vue'
+import PrivacyStatementView from '../views/PrivacyStatementView.vue'
 const routes = [
   
   {
     path: '/:pathMatch(.*)*',
-    name: Home,
+    name: HomeView,
     meta: {
-      title: "Home",
+      title: "HomeView",
       basePath: process.env.VUE_APP_PUBLIC_PATH || ''
     },
-    component: () => import("../views/Home.vue"),
+    component: () => import("../views/HomeView.vue"),
   },
   {
     path: '/',
-    name: Home,
+    name: HomeView,
     meta: {
-      title: "Home",
+      title: "HomeView",
       basePath: process.env.VUE_APP_PUBLIC_PATH || ''
     },
-    component: () => import("../views/Home.vue"),
+    component: () => import("../views/HomeView.vue"),
   },
   {
     path: "/product/:id",
-    name: Product,
+    name: ProductView,
     meta: {
-      title: "Product",
+      title: "ProductView",
       basePath: process.env.VUE_APP_PUBLIC_PATH || ''
     },
-    component: () => import("../components/products/Product.vue"),
+    component: () => import("../views/ProductView.vue"),
     props: true 
   },
   
   {
     path: "/about",
-    name: AboutTwo,
+    name: AboutView,
     meta: {
-      title: "AboutTwo",
+      title: "AboutView",
       basePath: process.env.VUE_APP_PUBLIC_PATH || ''
     },
-    component: () => import("../components/about/AboutTwo.vue"),
+    component: () => import("../views/AboutView.vue"),
   },
   {
     path: "/impressum",
-    name: ImpressumPage,
+    name: ImpressumView,
     meta: {
-      title: "Impresszum",
+      title: "ImpressumView",
       basePath: process.env.VUE_APP_PUBLIC_PATH || ''
     },
-    component: () => import("../components/support/ImpressumPage.vue"),
+    component: () => import("../views/ImpressumView.vue"),
+    props: true 
+  },
+  {
+    path: "/privacy",
+    name: PrivacyStatementView,
+    meta: {
+      title: "PrivacyStatementView",
+      basePath: process.env.VUE_APP_PUBLIC_PATH || ''
+    },
+    component: () => import("../views/PrivacyStatementView.vue"),
     props: true 
   },
 ]
@@ -58,7 +69,13 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
- 
+  scrollBehavior(to) {
+    if (to.hash) {
+      return {
+        el: to.hash,
+      }
+    }
+  },
 })
 
 
