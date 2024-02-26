@@ -57,7 +57,7 @@
          <div class="container">
             <div class="row">
                <div class="col-lg-12">
-                  <div class="featuredbox-number mb_90 res-991-margin_bottom0 mt_15 res-991-margin_top0">
+                  <div class="featuredbox-number margin_bottom90 res-991-margin_bottom0 mt_15 res-991-margin_top0">
                      <div class="row">
                         <div class="col-lg-4 col-md-6 col-sm-6"  v-for="(item, index) in strengths" :key="index">
                            <div class="featured-icon-box icon-align-top-content style7">
