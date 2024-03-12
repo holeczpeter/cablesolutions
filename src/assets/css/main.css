@@ -1892,9 +1892,9 @@ nav.main-menu .megamenu-content .title{
     width: 40px;
     line-height: 40px;
     font-size: 14px;
-    border: 1px solid #222d35;
+    
     text-align: center;
-    color: #222d35;
+   
     border-radius: 0;
     -webkit-transition: all .3s ease 0s;
     -moz-transition: all .3s ease 0s;
@@ -3081,6 +3081,12 @@ section.error-404 .page-content p { font-size: 18px; margin-bottom: 30px; }
 .ul-support {
     list-style-type: none;
   }
+
+ .social-color{
+    background-color: #316FF6;
+    color:white;
+    border-color:#316FF6;
+ } 
 /* Style the Image Used to Trigger the Modal */
 #myImg {
     border-radius: 5px;

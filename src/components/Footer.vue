@@ -20,7 +20,7 @@
                   <div class="widget widget_social clearfix">
                      <div class="social-icons text-lg-right">
                         <ul class="social-icons list-inline">
-                           <li><a class="tooltip-top facebook" :href="facebook" rel="noopener" aria-label="facebook" data-tooltip="Facebook"><i class="fa fa-facebook"></i></a></li>
+                           <li><a class="tooltip-top" :href="facebook" rel="noopener" aria-label="facebook" data-tooltip="Facebook"><i class="fa fa-facebook"></i></a></li>
                            <li><a class="tooltip-top" :href="linkedIn" rel="noopener" aria-label="linkedin" data-tooltip="Linkedin"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                      </div>
