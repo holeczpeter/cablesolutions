@@ -29,6 +29,7 @@
                         <ul class="ul-support">
                             <li>{{$t('impressum-page.domain.name')}}: {{domain.name}}</li>
                             <li>{{$t('impressum-page.domain.address')}}: {{domain.address}}</li>
+                            <li>{{domain.email}}</li>
                             <li>{{domain.link}}</li>
                         </ul>
                      </div>

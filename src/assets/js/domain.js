@@ -1,5 +1,6 @@
 export const domain = {
     name:"Mijn InternetOplossing B.V.",
-    address:"Markerkant 1813 1314 AN Almere Netherlands",
-    link: "mijndnsserver.nl",
+    address:"Winthontlaan 200 3526 KV Utrecht Netherlands",
+    link: "www.mijnwebserver.nl",
+    email:"info@mijnwebserver.nl"
   };
