@@ -29,137 +29,16 @@
                         <div class="ttm-pf-single-content-area" id="pics">
                            <div class="row">
                               <div class="col-lg-12">
-                                 <div class="margin_top40">
+                                <div class="margin_top40">
                                     <h2 v-if="this.$i18n.locale == 'hu'">{{ currentProduct.subtitle_hu }}</h2>
                                     <h2 v-if="this.$i18n.locale == 'en'">{{ currentProduct.subtitle_en }}</h2>
                                     <h2 v-if="this.$i18n.locale == 'nl'">{{ currentProduct.subtitle_nl }}</h2>
                                     <p v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu}}</p>
                                     <p v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en}}</p>
                                     <p v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl}}</p>
-                                    <div class="row"  v-if="currentProduct.id == 1">
-                                        <div class="col-md-6">
-                                            
-                                            <ul class="ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor margin_top15">
-                                                <li><i class="ti ti-check"></i>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_1 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_1 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_1 }}</div>
-                                                </li> <br>
-                                                <li><i class="ti ti-check"></i>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_2 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_2 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_2 }}</div>
-                                                </li> <br>
-                                                <li><i class="ti ti-check"></i>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_3 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_3 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_3 }}</div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <ul class="ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor margin_top15">
-                                                <li><i class="ti ti-check"></i>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_4 }}</div> 
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_4 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_4 }}</div>
-                                                </li> <br>
-                                                <li><i class="ti ti-check"></i>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_5 }}</div>  
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_5 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_5 }}</div>
-                                                </li> <br>
-                                                <li><i class="ti ti-check"></i>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_6 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_6 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_6 }}</div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="row"  v-if="currentProduct.id == 2">
-                                        <div class="col-md-6">
-                                            <ul class="ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor margin_top15">
-                                                <li><i class="ti ti-check"></i>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_1 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_1 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_1 }}</div>
-                                                </li> <br>
-                                                <li><i class="ti ti-check"></i>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_2 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_2 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_2 }}</div>
-                                                </li> <br>
-                                               
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <ul class="ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor margin_top15">
-                                                <li><i class="ti ti-check"></i>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_3 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_3 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_3 }}</div>
-                                                </li><br>
-                                                <li><i class="ti ti-check"></i>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_4 }}</div> 
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_4 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_4 }}</div>
-                                                </li> <br>
-                                               
-                                            </ul>
-                                        </div>
-                                        
-                                    </div>
-                                    <div class="row"  v-if="currentProduct.id == 3">
-                                        <div class="col-md-6">
-                                            
-                                            <ul class="ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor margin_top15">
-                                                <li><i class="ti ti-check"></i>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_1 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_1 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_1 }}</div>
-                                                </li> <br>
-                                                <li><i class="ti ti-check"></i>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_2 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_2 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_2 }}</div>
-                                                </li> <br>
-                                                <li><i class="ti ti-check"></i>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_3 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_3 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_3 }}</div>
-                                                </li><br>
-                                                 <li><i class="ti ti-check"></i>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_4 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_4 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_4 }}</div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <ul class="ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor margin_top15">
-                                               
-                                                <li><i class="ti ti-check"></i>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_5 }}</div>  
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_5 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_5 }}</div>
-                                                </li> <br>
-                                                <li><i class="ti ti-check"></i>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_6 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_6 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_6 }}</div>
-                                                </li><br>
-                                                 <li><i class="ti ti-check"></i>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'hu'">{{ currentProduct.solution_hu_7 }}</div> 
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'en'">{{ currentProduct.solution_en_7 }}</div>
-                                                    <div class="ttm-list-li-content" v-if="this.$i18n.locale == 'nl'">{{ currentProduct.solution_nl_7 }}</div>
-                                                </li> 
-                                            </ul>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
+                                </div> 
+                            </div> 
+                        </div> 
                            <div class="row" >
                            <div class="masonry-container" >
                               <div class="featured-imagebox featured-imagebox-services style1" v-for="(pic, key) in currentProduct.pics" :key="key">

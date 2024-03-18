@@ -1,6 +1,6 @@
 <template>
    <footer class="footer widget-footer  clearfix">
-   <div class="ttm-horizontal_sep width-100 margin_top35 margin_bottom35"></div>
+   <div class="ttm-horizontal_sep width-100 margin_top35"></div>
       <div class="first-footer">
          <div class="container">
             <div class="row">
@@ -85,8 +85,8 @@
                   <div class="text-center">
                      <span class="cpy-text">Copyright © 2024 <a href="https://holeczpeter.com" class="ttm-textcolor-skincolor font-weight-500">Holecz Péter </a> All rights reserved.</span>
                      <ul class="footer-nav-menu">
-                        <li><a href="https://holeczpeter.com/#about">About Us</a></li>
-                        <li><a href="https://holeczpeter.com/#contact">Contact Us</a></li>
+                        <li><a class="ttm-textcolor-skincolor font-weight-500" href="https://holeczpeter.com/#about">About Us</a></li>
+                        <li><a class="ttm-textcolor-skincolor font-weight-500" href="https://holeczpeter.com/#contact">Contact Us</a></li>
                      </ul>
                   </div>
                </div>

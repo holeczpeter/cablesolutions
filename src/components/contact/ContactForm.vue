@@ -19,34 +19,11 @@
                      </div>
                      <form id="request_qoute_form" class="request_qoute_form wrap-form clearfix" method="post" novalidate="novalidate" action="#">
                         <div class="row">
-                           <div class="col-md-4">
-                              <span class="text-input">
-                              <input name="name"  type="text" value="" 
-                                 :placeholder="$t('contact-form.name')" 
-                                 required="required">
-                              </span>
-                           </div>
-                           <div class="col-md-4">
+                          
+                           <div class="col-md-6">
                               <span class="text-input">
                               <input name="address" type="text" value="" 
                                  :placeholder="$t('contact-form.email')" 
-                                 required="required">
-                              </span>
-                           </div>
-                           <div class="col-md-4">
-                              <span class="text-input">
-                              <input name="phone" 
-                                 type="text" 
-                                 value="" 
-                                 :placeholder="$t('contact-form.phone')" 
-                                 required="required">
-                              </span>
-                           </div>
-                           <div class="col-md-6">
-                              <span class="text-input">
-                              <input name="company name*" 
-                                 type="text" value="" 
-                                 :placeholder="$t('contact-form.company')"
                                  required="required">
                               </span>
                            </div>

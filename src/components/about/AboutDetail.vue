@@ -24,11 +24,14 @@
                            <p class="justify-p">{{ $t('about-page-2.paragraph-3') }}</p>
                            <p>{{ $t('about-page-2.why') }}</p>
                            <ul class="ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor ttm-textcolor-darkgrey without-border">
-                              <li><i class="ti ti-check"></i><span class="ttm-list-li-content">{{ $t('about-page-2.why-answer-1')}}</span></li><br>
-                              <li><i class="ti ti-check"></i><span class="ttm-list-li-content">{{ $t('about-page-2.why-answer-2')}}</span></li><br>
-                              <li><i class="ti ti-check"></i><span class="ttm-list-li-content">{{ $t('about-page-2.why-answer-3')}}</span></li><br>
-                              <li><i class="ti ti-check"></i><span class="ttm-list-li-content">{{ $t('about-page-2.why-answer-4')}}</span></li><br>
-                              <li><i class="ti ti-check"></i><span class="ttm-list-li-content">{{ $t('about-page-2.why-answer-5')}}</span></li><br>
+                              <div v-for="index in 9" :key="index" >
+                               <li  v-if="!!$t('about-page-2.answer-' + index)">
+                                 <i class="ti ti-check" ></i>
+                                 <span class="ttm-list-li-content">{{ $t('about-page-2.answer-' + index)}}</span>
+                                 <br>
+                              </li>
+                              </div>
+                              <br>
                            </ul>
                         </div>
                      </div>
@@ -88,6 +91,8 @@
    </div>
 </template>
 <script>
+
+
 export default {
   name: 'AboutDetail',
   data(){

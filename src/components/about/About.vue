@@ -35,6 +35,7 @@
                         <li><i class="ti ti-check"></i><span class="ttm-list-li-content">{{ $t('about-page.check-1')}}</span></li><br>
                         <li><i class="ti ti-check"></i><span class="ttm-list-li-content">{{ $t('about-page.check-2')}}</span></li><br>
                         <li><i class="ti ti-check"></i><span class="ttm-list-li-content">{{ $t('about-page.check-3')}}</span></li><br>
+                        <li><i class="ti ti-check"></i><span class="ttm-list-li-content">{{ $t('about-page.check-4')}}</span></li><br>
                      </ul>
                   </div>
                   <div class="d-inline-block margin_top15">

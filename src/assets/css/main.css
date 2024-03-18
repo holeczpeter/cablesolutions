@@ -1969,12 +1969,12 @@ nav.main-menu .megamenu-content .title{
 }
 .slide .slide__content--headings > h3 {
     color: rgb(220, 221, 222);
-    line-height: 25px;
+    line-height: 40px;
     display: inline-block;
     position: relative;
     letter-spacing: 2px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 32px;
 }
 .slide .slide__content--headings > h3:before, 
 .slide .slide__content--headings > h3:after {
@@ -2129,7 +2129,7 @@ nav.main-menu .megamenu-content .title{
 
     .banner_slider .slide { height: 420px; }
 
-    .slide .slide__content--headings > h3 { font-size: 14px; }
+    .slide .slide__content--headings > h3 { font-size: 28px; }
     .slide .slide__content--headings > h3:before { width: 21px; left: -35px; }
     .slide .slide__content--headings > h3:after {  width: 21px; right: -35px; }
     .slide .slide__content--headings h2 { font-size: 30px; line-height: 38px; }
@@ -3159,7 +3159,7 @@ section.error-404 .page-content p { font-size: 18px; margin-bottom: 30px; }
     text-decoration: none;
     cursor: pointer;
   }
-  
+
   /* 100% Image Width on Smaller Screens */
   @media only screen and (max-width: 700px){
     .modal-content {
