@@ -3,9 +3,9 @@
   "about":"Rólunk",
   "products":"Termékeink",
   "contact": "Kapcsolat",
-  "affordable-quality":"Megfizethető minőség",
+  "affordable-quality":"Egyedi összeszerelés",
   "welcome":"Üdvözöljük",
-  "slider-about":"Kábelszerelés, kábelkorbácsok és vezérlő- és kapcsolószekrények",
+  "slider-about":"Kábelkonfekcionálás, kábelkorbácsok, vezérlő- és kapcsolószekrények",
   "slider-about-2":"",
   "more-detail":"Ismerjen meg minket",
   "quote":"Your challenge our solution",
@@ -15,7 +15,7 @@
     "site-links":"Site links",
     "request-form":"Online kapcsolatfelvétel",
     "get-in-touch":"Vegye fel velünk a kapcsolatot",
-    "title":"Kábelszerelvények és elektronikai dobozok gyártása",
+    "title":"Kábelkonfekcionálás, kábelkorbácsok, vezérlő- és kapcsolószekrények",
     "support":"Support",
     "privacy":"Adatvédelmi tájékoztató",
     "impressum":"Impresszum"
@@ -196,9 +196,9 @@
     "projects":"termékek",
     "clients":"ügyfelek",
     "experience":"tapasztalat ",
-    "projects-value":"Elégedett",
-    "clients-value":"Vevőspecifikus",
-    "experience-value":"20 év"
+    "projects-value":"Vevőspecifikus",
+    "clients-value":"Elégedett",
+    "experience-value":"13 év"
   },
   "products-page":{
     "title":"Termékeink",

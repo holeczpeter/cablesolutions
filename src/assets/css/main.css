@@ -1952,7 +1952,7 @@ nav.main-menu .megamenu-content .title{
     z-index: 2;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     
 }
 .slide .slide__content--headings {
@@ -1965,7 +1965,7 @@ nav.main-menu .megamenu-content .title{
     line-height: 75px;
     letter-spacing: 1px;
     font-weight: 300;
-    font-size: 62px;
+    font-size: 48px;
 }
 .slide .slide__content--headings > h3 {
     color: rgb(220, 221, 222);
