@@ -60,7 +60,7 @@
                   <div class="widget widget_nav_menu clearfix">
                      <h3 class="widget-title">{{$t('footer.support')}}</h3>
                      <ul id="menu-footer-quick-links" class="menu">
-                        <li><a href="@/assets/docs/Cable_Solutions_Privacy.pdf" download>{{$t('footer.privacy')}}</a></li>
+                        <li><a href="docs/Cable_Solutions_Privacy.pdf" download>{{$t('footer.privacy')}}</a></li>
                         <li><a :href="`${$route.meta.basePath || ''}/` + 'impressum'">{{$t('footer.impressum')}}</a></li>
                      </ul>
                   </div>
