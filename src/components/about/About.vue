@@ -25,7 +25,7 @@
                         <img class="img-fluid auto_size" width="168" height="88" src="../../assets/img/Symbol.jpg" alt="symbol">
                      </div>
                      <div class="pl-4 res-575-padding_left0 res-575-margin_top15">
-                        <h3 class="fs-20 mb-0 pr-5 res-991-padding_right0">{{ $t('about-page.subtitle')}}</h3>
+                        <h3 class="fs-20 mb-0 pr-5 res-991-padding_right0">{{ $t('quote')}}</h3>
                      </div>
                   </div>
                   <div class="ttm-horizontal_sep width-100 margin_top30 padding_bottom30"></div>

@@ -42,11 +42,9 @@
                            <div class="row" >
                            <div class="masonry-container" >
                               <div class="featured-imagebox featured-imagebox-services style1" v-for="(pic, key) in currentProduct.pics" :key="key">
-                            
                                  <div class="featured-thumbnail">
                                     <img class="img-fluid" :src="pic.pic" alt="image">
-                                 </div>
-                             
+                                 </div>                    
                                </div>
                            </div>
                            </div>
