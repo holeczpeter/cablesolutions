@@ -57,7 +57,7 @@
                         </div>
                      </div>
                   </div>
-                  <h2 class="fs-24 padding_top30">{{ $t('contact-us-page.branch-office')}}</h2>
+                  <h2 class="fs-24 padding_top60">{{ $t('contact-us-page.branch-office')}}</h2>
                   <div class="ttm-horizontal_sep width-100"></div>
                   <div class="row">
                      <div class="col-lg-6 margin_top15">
@@ -109,14 +109,15 @@
    </section>
 </template>
 <script>
+import { contact } from '@/assets/js/contact.js'; 
 export default {
   name: 'ContactInfo',
   data() {
     return {
-      head_office_phone:"+31 646 445 893",
-      head_office_email:"e.baselier@cablesolutions.eu",
-      branch_office_phone:"+31 6 219 55470",
-      branch_office_email:"administration@cablesolutions.eu",
+      head_office_phone:contact.head_office.phone,
+      head_office_email:"contact.head_office.email",
+      branch_office_phone:contact.branch_office.phone,
+      branch_office_email:contact.branch_office.email,
     };
   },
 }

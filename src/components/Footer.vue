@@ -11,7 +11,7 @@
                            <img id="footer-logo-img" class="img-fluid auto_size" height="46" width="170" src="../assets/img/logo.png" alt="image">
                         </div>
                         <div class="textwidget widget-text">
-                           <p>{{$t('footer.title')}}</p>
+                           <p class="footer-title">{{$t('footer.title')}}</p>
                         </div>
                      </div>
                   </div>
@@ -32,21 +32,7 @@
       <div class="second-footer ttm-bgcolor-darkgrey ttm-textcolor-white">
          <div class="container">
             <div class="row">
-               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 widget-area">
-                  <div class="widget widget_text margin_right10 clearfix">
-                     <h3 class="widget-title">{{$t('footer.get-in-touch')}}</h3>
-                        <div class="textwidget widget-text">
-                           <div class="call_detail">
-                              <h3 class="fs-24">{{contact.phone}}</h3>
-                              <div class="padding_top10 padding_bottom10"></div>
-                                 <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-white w-100 text-center" 
-                                        :href="`${$route.meta.basePath || ''}/` + '#contact'"  >
-                                        {{$t('footer.request-form')}}</a>
-                              </div>
-                           </div>
-                        </div>
-                  </div>
-               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 widget-area">
+               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 widget-area">
                   <div class="widget widget_nav_menu clearfix">
                      <h3 class="widget-title">{{$t('footer.site-links')}}</h3>
                      <ul id="menu-footer-quick-links" class="menu">
@@ -56,7 +42,7 @@
                      </ul>
                   </div>
                </div>
-               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 widget-area">
+               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 widget-area">
                   <div class="widget widget_nav_menu clearfix">
                      <h3 class="widget-title">{{$t('footer.support')}}</h3>
                      <ul id="menu-footer-quick-links" class="menu">
@@ -65,13 +51,13 @@
                      </ul>
                   </div>
                </div>
-               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 widget-area">
+               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 widget-area">
                   <div class="widget widget-latest-tweets clearfix">
                      <h3 class="widget-title">{{$t('contact')}}</h3>
                      <ul class="widget_contact_wrapper">
-                        <li><i class="ttm-textcolor-skincolor fa fa-map-marker"></i>{{contact.address}}</li>
-                        <li><i class="ttm-textcolor-skincolor fa fa-phone"></i>{{contact.phone}}</li>
-                        <li><i class="ttm-textcolor-skincolor fa fa-envelope-o"></i><a href="mailto:administration@cablesolutions.eu">{{contact.email}}</a></li>
+                        <li><i class="ttm-textcolor-skincolor fa fa-map-marker"></i>{{ $t('contact-us-page.head_office')}}</li>
+                        <li><i class="ttm-textcolor-skincolor fa fa-phone"></i>{{contact.head_office.phone}}</li>
+                        <li><i class="ttm-textcolor-skincolor fa fa-envelope-o"></i><a href="mailto:administration@cablesolutions.eu">{{contact.head_office.email}}</a></li>
                      </ul>
                   </div>
                </div>

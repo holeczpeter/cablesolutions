@@ -336,6 +336,7 @@
 	.ttm-vertical_sep > [class*='col-lg']:not(:last-child):before { content: unset; }
 
 	/* footer */
+	
 	.first-footer .container { padding: 35px 15px; }
 	.first-footer .widget { padding: 15px 0 10px; margin: 0 -15px; border: 0; }
 	.second-footer>div>.row .widget-area .widget:not(:first-child) { margin-top: 0; margin-bottom: 10px;}

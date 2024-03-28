@@ -24,7 +24,7 @@
                            <p class="justify-p">{{ $t('about-page-2.paragraph-3') }}</p>
                            <p>{{ $t('about-page-2.why') }}</p>
                            <ul class="ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor ttm-textcolor-darkgrey without-border">
-                              <div v-for="index in 9" :key="index" >
+                              <div v-for="index in 11" :key="index" >
                                <li  v-if="!!$t('about-page-2.answer-' + index)">
                                  <i class="ti ti-check" ></i>
                                  <span class="ttm-list-li-content">{{ $t('about-page-2.answer-' + index)}}</span>

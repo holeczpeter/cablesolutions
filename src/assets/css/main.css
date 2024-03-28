@@ -1982,7 +1982,7 @@ nav.main-menu .megamenu-content .title{
     content: "";
     width: 30px;
     height: 3px;
-    top: 10px;
+    top: 20px;
     left: -45px;
 }
 .slide .slide__content--headings > h3:after {
@@ -2305,15 +2305,19 @@ nav.main-menu .megamenu-content .title{
     padding: 0;
     list-style: none;
 }
-
+.first-footer{
+    background-color:  #f8f8f8;
+}
 /* first-footer (newsletter) */
 .first-footer .container{
     padding: 35px 15px 15px;
     position: relative;
+    
 }
 .first-footer .widget {
     padding-top: 30px;
     padding-bottom: 30px;
+    
 }
 
 
@@ -3118,7 +3122,9 @@ section.error-404 .page-content p { font-size: 18px; margin-bottom: 30px; }
     width: 80%;
     max-width: 700px;
   }
-  
+  .footer-title{
+    font-size: 16px;
+  }
   /* Caption of Modal Image (Image Text) - Same Width as the Image */
   #caption {
     margin: auto;
